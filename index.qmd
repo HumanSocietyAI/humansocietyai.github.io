@@ -1,6 +1,6 @@
 ---
 title: "Human- and Society-Centered AI Research Network"
-pagetitle: "Human- and Society-Centered AI Research Network | University of Pannonia"
+pagetitle: "University of Pannonia"
 description: "A cross-faculty research network of the University of Pannonia: understanding and designing human–AI–social systems that work for people."
 page-layout: custom
 section-divs: false

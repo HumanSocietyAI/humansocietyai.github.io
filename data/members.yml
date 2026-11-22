@@ -8,7 +8,8 @@
 #   faculty / unit / department   organizational placement, as far as public sources give it
 #   campus      Veszprém | Zalaegerszeg | Nagykanizsa | External
 #   email       written without "@" on purpose (user / domain) – the page assembles it in the browser
-#   orcid, scholar (Google Scholar user id), openalex (author id), website, university_url, photo
+#   orcid, scholar (Google Scholar user id), openalex (author id), website, university_url,
+#   photo (local 240×288 portrait in assets/img/people/), photo_source (original image on the university page)
 #   lines       research-line ids from data/lines.yml (first = main line)
 #   bio         about 40 words, drafted from public sources; members may request corrections
 #
@@ -30,7 +31,8 @@
   openalex: A5063684561
   website: https://www.abonyilab.com/
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/abonyi-janos.html
-  photo: https://uni-pannon.hu/images/2024/02/IMG_5433.jpg
+  photo: /assets/img/people/janos-abonyi.jpg
+  photo_source: "https://uni-pannon.hu/images/2024/02/IMG_5433.jpg"
   lines: [trustworthy, governance, society]
   bio: "Works on explainable and verifiable machine learning, network and hypergraph science, and human-centered AI in organizational and industrial systems. Coordinates the network and links its work on persona-based impact assessment, AI risk analysis and agent-based methods."
 
@@ -46,7 +48,8 @@
   openalex: A5068702409
   website: https://ferenc.andrasek.hu/
   university_url: https://tti.htk.uni-pannon.hu/az-intezetrol/oktatoink
-  photo: https://tti.htk.uni-pannon.hu/images/andrs_ferenc.jpg
+  photo: /assets/img/people/ferenc-andras.jpg
+  photo_source: "https://tti.htk.uni-pannon.hu/images/andrs_ferenc.jpg"
   lines: [society, minds, governance]
   bio: "Philosopher working on social communication, digital meaning, logic and cybernetic models in philosophy; contributes the normative and ethical perspective on the societal impact of AI."
 
@@ -63,7 +66,8 @@
   scholar: Xrr_ePEAAAAJ
   openalex: A5099133344
   university_url: https://www.gtk.uni-pannon.hu/hu/fehervolgyibeata/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Fehervolgyi-Beata-1-e1627462210196-300x300.jpg
+  photo: /assets/img/people/beata-bajzek.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Fehervolgyi-Beata-1-e1627462210196-300x300.jpg"
   lines: [society, enterprises]
   bio: "Works on regional and tourism development, place marketing and social innovation, including expert perspectives on the societal impact of digital transformation and science and technology parks as complex systems."
 
@@ -96,7 +100,8 @@
   scholar: Vau7QhYAAAAJ
   openalex: A5145008966
   university_url: https://pmi.htk.uni-pannon.hu/az-intezetrol/munkatarsaink-pmi
-  photo: https://pmi.htk.uni-pannon.hu/media/com_sppagebuilder/placeholder/img_9482_pp.jpg
+  photo: /assets/img/people/eva-bodnar.jpg
+  photo_source: "https://pmi.htk.uni-pannon.hu/images/2024/01/10/img_9482_pp.jpg"
   lines: [organizations, minds, education]
   bio: "Psychologist working on organizational learning, skills development and change management, with expertise in qualitative and mixed-methods research. Helps anchor the network’s psychological frameworks and its shared measurement principles."
 
@@ -111,7 +116,8 @@
   orcid: 0009-0000-3864-976X
   openalex: A5118596303
   university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/bohar-gabor
-  photo: https://dcs.uni-pannon.hu/images/staff/small/boharg2026.jpg
+  photo: /assets/img/people/gabor-bohar.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/boharg2026.jpg"
   lines: [industry, trustworthy]
   bio: "Works on machine learning and IT solutions for industry, including digital transformation, multi-criteria decision making and reliability and maintenance optimization."
 
@@ -127,7 +133,8 @@
   orcid: 0009-0001-8927-7828
   openalex: A5040747485
   university_url: https://www.gtk.uni-pannon.hu/hu/simonnikolett/
-  photo: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/06/Bosny%C3%A1k-Simon-Nikolett2-e1755064393599-300x300.jpg"
+  photo: /assets/img/people/nikolett-bosnyak-simon.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/06/Bosny%C3%A1k-Simon-Nikolett2-e1755064393599-300x300.jpg"
   lines: [enterprises]
   bio: "Works in accounting and finance, with research on corporate social responsibility reporting and entrepreneurship; contributes an economics and business perspective to the network."
 
@@ -154,7 +161,8 @@
   scholar: k67QWMwAAAAJ
   openalex: A5044206520
   university_url: https://virt.uni-pannon.hu/index.php/hu/a-tanszekrol/munkatarsak
-  photo: https://virt.uni-pannon.hu/images/virt_imgs/staff_imgs/CLaszlo.jpg
+  photo: /assets/img/people/laszlo-czuni.jpg
+  photo_source: "https://virt.uni-pannon.hu/images/virt_imgs/staff_imgs/CLaszlo.jpg"
   lines: [industry, trustworthy]
   bio: "Works on image and video processing, video-based workflow recognition and visual human–machine interfaces, including industrial vision systems and neural-network applications."
 
@@ -171,7 +179,8 @@
   scholar: Qt6YPhwAAAAJ
   openalex: A5018914933
   university_url: https://www.gtk.uni-pannon.hu/hu/danielzoltan/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Daniel-Zoltan-Andras2-e1627548262845-300x300.jpg
+  photo: /assets/img/people/zoltan-andras-daniel.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Daniel-Zoltan-Andras2-e1627548262845-300x300.jpg"
   lines: [minds, enterprises]
   bio: "Works in business economics on sustainability and ESG investment, and on AI anthropomorphism – how human-like AI shapes users’ trust and their vulnerability to manipulation."
 
@@ -201,7 +210,8 @@
   orcid: 0000-0002-9609-1538
   openalex: A5053813785
   university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/dr-dulai-tibor
-  photo: https://dcs.uni-pannon.hu/images/staff/small/dulait.jpg
+  photo: /assets/img/people/tibor-dulai.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/dulait.jpg"
   lines: [trustworthy, industry]
   bio: "Works on decision support, scheduling and the analysis of industrial and business processes, including fault diagnosis and data-intensive AI methods."
 
@@ -216,7 +226,8 @@
   orcid: 0000-0002-5000-3395
   openalex: A5008791127
   university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/eles-andras
-  photo: https://dcs.uni-pannon.hu/images/staff/small/elesa.jpg
+  photo: /assets/img/people/andras-eles.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/elesa.jpg"
   lines: [industry, enterprises]
   bio: "Works in operations research and mathematical programming, with applications in supply chains, integrated energy systems and process optimization."
 
@@ -232,7 +243,8 @@
   orcid: 0009-0003-9160-0713
   openalex: A5005782318
   university_url: https://www.gtk.uni-pannon.hu/hu/feherhelga/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Feher-Helga2-e1627467580546-300x300.jpg
+  photo: /assets/img/people/helga-feher.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Feher-Helga2-e1627467580546-300x300.jpg"
   lines: [enterprises, governance]
   bio: "Works in accounting and accounting control; within the network she contributes to the strand on AI-supported auditing."
 
@@ -249,7 +261,8 @@
   openalex: A5080658307
   website: https://mik.uni-pannon.hu/en/research-development/research-laboratories/data-intensive-artificial-intelligence-methods-and-systems-research-laboratory
   university_url: https://dcs.uni-pannon.hu/en/staff/head-of-department/agnes-vathy-fogarassy
-  photo: https://dcs.uni-pannon.hu/images/staff/small/Fogarassyne_kep2b.jpg
+  photo: /assets/img/people/agnes-vathy-fogarassy.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/Fogarassyne_kep2b.jpg"
   lines: [trustworthy, university]
   bio: "Works on machine learning, clustering and process mining with clinical and healthcare data, and on explainable AI; heads the Data-intensive Artificial Intelligence Methods and Systems Research Laboratory."
 
@@ -265,7 +278,8 @@
   scholar: vH4Wp24AAAAJ
   openalex: A5029881596
   university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/frits-marton
-  photo: https://dcs.uni-pannon.hu/images/staff/small/frits_marton_small.JPG
+  photo: /assets/img/people/marton-frits.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/frits_marton_small.JPG"
   lines: [trustworthy, industry]
   bio: "Computer scientist working on process optimization and integration, scheduling and mathematical programming."
 
@@ -281,7 +295,8 @@
   scholar: c_WbFpUAAAAJ
   openalex: A5088834684
   university_url: https://www.gtk.uni-pannon.hu/hu/laszlogadar/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2017/06/Gadar-Laci-200x300.jpg
+  photo: /assets/img/people/laszlo-gadar.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2017/06/Gadar-Laci-200x300.jpg"
   lines: [university, organizations, trustworthy]
   bio: "Works on network science and organizational data, including education–occupation networks of graduates and the explainable prediction of employee turnover in multilayer networks; supports data-informed institutional decision-making."
 
@@ -312,7 +327,8 @@
   orcid: 0000-0003-2901-4011
   openalex: A5102920109
   university_url: https://pen.uni-pannon.hu/munkatarsak-soos-erno-kutato-fejleszto-kozpont/
-  photo: https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9789_Baranyai-Nora.png
+  photo: /assets/img/people/nora-hegedusne-baranyai.jpg
+  photo_source: "https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9789_Baranyai-Nora.png"
   lines: [society, enterprises]
   bio: "Works on applied statistics and regional analysis, with research on renewable energy, photovoltaic systems, energy storage and the economics of electric mobility."
 
@@ -328,7 +344,8 @@
   orcid: 0000-0003-3387-7370
   openalex: A5025146432
   university_url: https://www.gtk.uni-pannon.hu/hu/kisgyorgy-pal-maria/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2026/09/kisgyorgy_pal_maria-1024x1024.jpg
+  photo: /assets/img/people/maria-kisgyorgy-pal.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2026/09/kisgyorgy_pal_maria-1024x1024.jpg"
   lines: [enterprises]
   bio: "Works on quantitative methods for project planning and project management, and on the use of AI in accounting valuation."
 
@@ -344,7 +361,8 @@
   orcid: 0000-0001-7345-8336
   openalex: A5078544913
   university_url: https://www.gtk.uni-pannon.hu/kosztyanzsolttibor/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Kosztyan-Zsolt-Tibor-e1628245809739-300x300.jpg
+  photo: /assets/img/people/zsolt-tibor-kosztyan.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Kosztyan-Zsolt-Tibor-e1628245809739-300x300.jpg"
   lines: [university, organizations, society]
   bio: "Works on project management and operations research, mathematical optimization, economic and social networks, and higher-education rankings and academic mobility."
 
@@ -358,7 +376,8 @@
   email: {user: kovacs.mark, domain: htk.uni-pannon.hu}
   scholar: uMGyap0AAAAJ
   university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
-  photo: "https://dmi.htk.uni-pannon.hu/images/Kov%C3%A1cs_M%C3%A1rk_dmi.jpg"
+  photo: /assets/img/people/mark-kovacs.jpg
+  photo_source: "https://dmi.htk.uni-pannon.hu/images/Kova%CC%81cs_Ma%CC%81rk_dmi.jpg"
   lines: [education]
   bio: "Works on AI tools that support research and on digital education."
 
@@ -375,7 +394,8 @@
   scholar: h-ZsogoAAAAJ
   openalex: A5081013616
   university_url: https://www.gtk.uni-pannon.hu/hu/kozmadorottya/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/01/Kozma_Dorottya-300x300.jpg
+  photo: /assets/img/people/dorottya-edina-kozma.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/01/Kozma_Dorottya-300x300.jpg"
   lines: [enterprises, governance]
   bio: "Works in accounting and finance, with research on sustainability in business and on the corporate use of AI."
 
@@ -392,7 +412,8 @@
   scholar: bMren10AAAAJ
   openalex: A5007748311
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/kummer-alex.html
-  photo: https://mk.uni-pannon.hu/images/tanszekek/VFI/P1020523_Fotor_cr.jpg
+  photo: /assets/img/people/alex-kummer.jpg
+  photo_source: "https://mk.uni-pannon.hu/images/tanszekek/VFI/P1020523_Fotor_cr.jpg"
   lines: [industry, trustworthy, governance]
   bio: "Works on machine learning, process modeling and industrial data analysis, including MLOps and DataOps practices that keep people in the supervisory loop of deployed models."
 
@@ -407,7 +428,8 @@
   scholar: DFz_S4oAAAAJ
   openalex: A5041774380
   university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
-  photo: https://dmi.htk.uni-pannon.hu/images/matlariandrea.jpg
+  photo: /assets/img/people/andrea-matlari.jpg
+  photo_source: "https://dmi.htk.uni-pannon.hu/images/matlariandrea.jpg"
   lines: [education]
   bio: "Works on online course development and AI-based educational applications in higher education, and on what generative AI means for teaching in universities."
 
@@ -424,7 +446,8 @@
   scholar: VrKSfRcAAAAJ
   openalex: A5046151700
   university_url: https://www.gtk.uni-pannon.hu/hu/obermayernora/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Obermayer-Nora-e1627907686270-300x300.jpg
+  photo: /assets/img/people/nora-obermayer.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Obermayer-Nora-e1627907686270-300x300.jpg"
   lines: [organizations, governance, enterprises]
   bio: "Works on knowledge management, organizational learning and AI adoption, including organizational silos and the competencies organizations need to govern AI."
 
@@ -440,7 +463,8 @@
   scholar: 37AdIw8AAAAJ
   openalex: A5042078874
   university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
-  photo: https://dmi.htk.uni-pannon.hu/images/ollejanos_2024.jpg
+  photo: /assets/img/people/janos-olle.jpg
+  photo_source: "https://dmi.htk.uni-pannon.hu/images/ollejanos_2024.jpg"
   lines: [education, university]
   bio: "Works on digital pedagogy, the use of AI in higher education and teaching methodology, including prompting as a new competence and AI in course development."
 
@@ -456,7 +480,8 @@
   scholar: QLgiNmUAAAAJ
   openalex: A5029527446
   university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/dr-osz-oliver
-  photo: https://dcs.uni-pannon.hu/images/staff/small/oszo.jpg
+  photo: /assets/img/people/oliver-osz.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/oszo.jpg"
   lines: [trustworthy, industry]
   bio: "Works on scheduling industrial processes, including S-graph methods, robust scheduling under uncertainty and the mitigation of supply-chain disruptions."
 
@@ -474,7 +499,8 @@
   openalex: A5027970634
   website: https://www.operator4.com/
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/ruppert-tamas.html
-  photo: https://tehetseggondozas.mk.uni-pannon.hu/images/szemelyek/TamasRuppert.jpg
+  photo: /assets/img/people/tamas-ruppert.jpg
+  photo_source: "https://tehetseggondozas.mk.uni-pannon.hu/images/szemelyek/TamasRuppert.jpg"
   lines: [industry, organizations]
   bio: "Works on Industry 5.0, human–AI teaming and operator support, human-centered manufacturing and digital twins, with the Industry 5.0 Laboratory as a testbed."
 
@@ -491,7 +517,8 @@
   scholar: 58RGpkEAAAAJ
   openalex: A5064392438
   university_url: https://pmi.htk.uni-pannon.hu/az-intezetrol/munkatarsaink-pmi
-  photo: https://pmi.htk.uni-pannon.hu/media/com_sppagebuilder/placeholder/img_9525_pp.jpg
+  photo: /assets/img/people/judit-gabriella-sass.jpg
+  photo_source: "https://pmi.htk.uni-pannon.hu/images/2024/01/10/img_9525_pp.jpg"
   lines: [minds, organizations]
   bio: "Organizational psychologist working on psychological safety, creative self-efficacy and human–AI collaboration."
 
@@ -508,7 +535,8 @@
   scholar: g0_46QEAAAAJ
   openalex: A5006045569
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/sebestyen-viktor.html
-  photo: "https://mk.uni-pannon.hu/images/tanszekek/FMK/Sebesty%C3%A9n_Viktor.jpg"
+  photo: /assets/img/people/viktor-sebestyen.jpg
+  photo_source: "https://mk.uni-pannon.hu/images/tanszekek/FMK/Sebesty%C3%A9n_Viktor.jpg"
   lines: [society]
   bio: "Works on sustainability assessment, evidence-based decision support and the Sustainable Development Goals, using environmental and network analysis."
 
@@ -523,7 +551,8 @@
   orcid: 0000-0003-3142-6824
   openalex: A5086010350
   university_url: https://virt.uni-pannon.hu/index.php/hu/a-tanszekrol/oktatoi-oldalak/365-sikne-lanyi-cecilia
-  photo: https://virt.uni-pannon.hu/images/virt_imgs/staff_imgs/LCecilia.jpg
+  photo: /assets/img/people/cecilia-sik-lanyi.jpg
+  photo_source: "https://virt.uni-pannon.hu/images/virt_imgs/staff_imgs/LCecilia.jpg"
   lines: [minds, education, society]
   bio: "Works on human–computer interaction, virtual and augmented reality, and accessible, inclusive systems, including usability, serious games and technologies for people with disabilities."
 
@@ -540,7 +569,8 @@
   openalex: A5082658016
   website: https://www.dcs.uni-pannon.hu/sule/
   university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/sule-zoltan
-  photo: https://dcs.uni-pannon.hu/images/staff/small/sule_zoltan_small.JPG
+  photo: /assets/img/people/zoltan-sule.jpg
+  photo_source: "https://dcs.uni-pannon.hu/images/staff/small/sule_zoltan_small.JPG"
   lines: [trustworthy, industry]
   bio: "Works on optimization, process network synthesis and simulation, with applications in healthcare and information security."
 
@@ -556,7 +586,8 @@
   orcid: 0009-0008-8570-0618
   openalex: A5115442687
   university_url: https://www.gtk.uni-pannon.hu/hu/drtobakjulia/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/08/tobakjulia-300x300.png
+  photo: /assets/img/people/julia-tobak.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/08/tobakjulia-300x300.png"
   lines: [enterprises]
   bio: "Works on family businesses, enterprise development and innovation management."
 
@@ -572,7 +603,8 @@
   scholar: rpdJR5EAAAAJ
   openalex: A5013251864
   university_url: https://pen.uni-pannon.hu/munkatarsak-soos-erno-kutato-fejleszto-kozpont/
-  photo: https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9796_Zsiboracs-Henrik.png
+  photo: /assets/img/people/henrik-zsiboracs.jpg
+  photo_source: "https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9796_Zsiboracs-Henrik.png"
   lines: [society]
   bio: "Works on energy systems and sustainability, with research on photovoltaic technologies, renewable energy integration and energy storage."
 
@@ -589,7 +621,8 @@
   scholar: A2bUWzYAAAAJ
   openalex: A5065241311
   university_url: https://www.gtk.uni-pannon.hu/csepregianiko/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/08/Csepregi_Aniko-300x300.jpg
+  photo: /assets/img/people/aniko-csepregi.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/08/Csepregi_Aniko-300x300.jpg"
   lines: [organizations, governance]
   bio: "Works on knowledge management and knowledge sharing in organizations, and on the ethics of AI-based human resource management."
 
@@ -606,7 +639,8 @@
   scholar: Flg7riIAAAAJ
   openalex: A5068662804
   university_url: https://www.gtk.uni-pannon.hu/kovariedit/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Kovari-Edit-e1627908648956-300x300.jpg
+  photo: /assets/img/people/edit-kovari.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Kovari-Edit-e1627908648956-300x300.jpg"
   lines: [organizations, minds]
   bio: "Works on leaders’ emotional skills and competence management, including digital leadership behavior and technostress in AI-supported work environments."
 
@@ -623,7 +657,8 @@
   scholar: U6dQryUAAAAJ
   openalex: A5062173726
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/czvetko-timea.html
-  photo: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/picture/external/czvetko_timea_cr.jpg
+  photo: /assets/img/people/timea-czvetko.jpg
+  photo_source: "https://mk.uni-pannon.hu/images/home/oktatok-kutatok/picture/external/czvetko_timea_cr.jpg"
   lines: [enterprises, industry]
   bio: "Works on Industry 4.0 readiness and digital transformation, and leads work on the AI-maturity survey of small and medium-sized enterprises run jointly with the National Association of Entrepreneurs and Employers (VOSZ)."
 
@@ -639,7 +674,8 @@
   scholar: -wJ4JqEAAAAJ
   openalex: A5089310459
   university_url: https://virt.uni-pannon.hu/index.php/hu/a-tanszekrol/oktatoi-oldalak/219-starkne-werner-agnes
-  photo: https://virt.uni-pannon.hu/images/users/werner.agnes/SWA2.jpg
+  photo: /assets/img/people/agnes-werner-stark.jpg
+  photo_source: "https://virt.uni-pannon.hu/images/users/werner.agnes/SWA2.jpg"
   lines: [trustworthy, industry]
   bio: "Works on business process modeling, scheduling and vehicle routing, and on data-intensive AI methods, including decision support with the clinician in the loop."
 
@@ -656,7 +692,8 @@
   scholar: p7bGxI8AAAAJ
   openalex: A5063261640
   university_url: https://www.gtk.uni-pannon.hu/hu/hegeduscsaba/
-  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Hegedus-Csaba-e1628245773386-300x300.jpg
+  photo: /assets/img/people/csaba-hegedus.jpg
+  photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Hegedus-Csaba-e1628245773386-300x300.jpg"
   lines: [enterprises, industry]
   bio: "Works on supply chain management, statistical quality control and digital transformation, including the division of labor between planners and LLM agents in materials planning."
 
@@ -673,6 +710,7 @@
   scholar: 8oJ0eVIAAAAJ
   openalex: A5077490418
   university_url: https://pmi.htk.uni-pannon.hu/az-intezetrol/munkatarsaink-pmi
-  photo: https://pmi.htk.uni-pannon.hu/media/com_sppagebuilder/placeholder/img_9427_pp.jpg
+  photo: /assets/img/people/vera-varga.jpg
+  photo_source: "https://pmi.htk.uni-pannon.hu/images/2024/01/10/img_9427_pp.jpg"
   lines: [minds, education, industry]
   bio: "Cognitive psychologist working on reading, orthographic learning and language development; contributes a cognitive psychology perspective to the network."

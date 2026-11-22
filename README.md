@@ -51,7 +51,8 @@ assets/logo/             official University of Pannonia logo files (2026)
   scholar: GoogleScholarUserId
   openalex: A0000000000
   university_url: https://...
-  photo: https://...            # optional; a monogram is shown otherwise or if the image fails to load
+  photo: /assets/img/people/firstname-lastname.jpg   # optional, 240×288 JPEG; a monogram is shown otherwise
+  photo_source: https://...     # the original image on the university page
   lines: [industry, trustworthy]  # first = main line
   bio: "About 40 words, third person."
 ```
