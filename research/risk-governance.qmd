@@ -1,0 +1,56 @@
+---
+title: "AI Risk, Governance and Responsible Autonomy"
+subtitle: "Research line 4 · Risk & Governance"
+description: "Risk analysis, human oversight and calibrated reliance: deciding when a system may act on its own and when a person has to step in."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 4 of 9</span><p>Risk analysis is the shared methodological thread of the programme. The aim is not to increase trust in AI in general, but reliance that is calibrated to the capabilities of the system and to the task.</p></div>
+```
+
+## The problem
+
+The analysis covers technical failures (hallucination, bias, data quality, model change), human and social risks (over-reliance, loss of autonomy, exclusion, convergence, erosion of trust), organizational risks (responsibility gaps, concentration of knowledge, role conflicts) and societal and legal consequences. ISO/IEC 23894, the management-system logic of ISO/IEC 42001 and EU regulation serve as application frameworks; conformity is always assessed for a concrete use case and role. Persona-based and classical FMEA, incident analysis, scenario-based examination and human oversight points can be combined – and the effectiveness of the responses to risks has to be measured too.
+
+We measure self-reported trust, the actual acceptance of suggestions and checking behavior separately. A typical experimental question: does the user notice a convincingly worded error? A further question is which roles, competences and HR development AI governance requires as an organization matures, and how the uncertainty of a decision can tell when a system may act on its own and when a person has to be involved – the human-in-the-loop threshold.
+
+Human oversight has psychological preconditions. Involving a person is meaningful control only if the overseer has the knowledge, time, access and right to override the system; the presence of a designated overseer does not in itself prove that oversight works. We study sustained attention, understanding of the rationale, recognizing when to escalate and the experience of decision responsibility; proposed outcomes are the detection rate of wrong suggestions and the time to a correct intervention.
+
+## Research questions
+
+::: {.rq-list}
+- How can risk be assessed across technical, human, organizational and societal layers for a concrete use case?
+- What reliance is appropriate for a given system and task, and how can it be measured beyond self-reported trust?
+- When may a system decide on its own and when must a person be involved – can this threshold be derived from decision uncertainty?
+- What roles, competences and HR development does AI governance require as organizations mature?
+- Under which conditions is human oversight effective rather than nominal?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+Possibilistic and fuzzy uncertainty handling, which distinguishes conflict from ignorance at the point of decision, FMEA-based risk analysis, MLOps practice and research on knowledge management and HR ethics provide the methodological basis.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H5** Part of the local productivity gain is lost at the organizational level if the costs of validation, coordination, re-learning and risk management are not counted.
+:::
+
+::: {.hypothesis}
+**H9** The possibility of human review and of contesting an AI suggestion increases the perceived fairness of the procedure.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-governance.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/society-policy.html">← 3 · Society & Policy</a>
+<a href="/research/trustworthy-ai.html">5 · Trustworthy AI →</a>
+</nav>
+```

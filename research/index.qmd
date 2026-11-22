@@ -1,0 +1,15 @@
+---
+title: "Research"
+subtitle: "Nine connected research lines on human–AI–social systems"
+description: "The nine research lines of the Human- and Society-Centered AI Research Network at the University of Pannonia."
+---
+
+::: {.page-lead}
+The research lines are not separate projects but connected problems. They share one causal logic, four levels of analysis and a set of common measurement principles, so that results from the shop floor, the classroom, the university and small enterprises can be compared.
+:::
+
+{{< include ../_generated/lines-cards.md >}}
+
+## How the lines connect
+
+Every study keeps apart **supported performance**, **durable competence** and **independent initiative**, and makes clear (a) the intervention or system studied, (b) the human and social mechanism, (c) the measurable outcome and risk, (d) the basis of comparison, (e) the methodological limits and (f) the reproducible result and openly shareable artifact. The [Approach](/approach.html) page explains this shared framework; [Planned studies](/planned-studies.html) shows the first joint pilots.

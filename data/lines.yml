@@ -1,0 +1,60 @@
+# The nine research lines of the network.
+# id      – short key used in members.yml
+# slug    – page name under /research/
+# title   – full title (research pages)
+# short   – short label (menu, cards, people groups)
+# summary – one or two sentences for cards
+- id: minds
+  slug: minds-relationships
+  num: 1
+  title: "Cognitive Partnership, Creativity and Relationships"
+  short: "Minds & Relationships"
+  summary: "How working and learning with AI changes thinking, competence, creativity, identity and the way people turn to each other."
+- id: organizations
+  slug: organizations-knowledge
+  num: 2
+  title: "AI and Organizational Change"
+  short: "Organizations & Knowledge"
+  summary: "When individual AI use becomes shared knowledge, organizational learning and lasting change – and when it deepens silos."
+- id: society
+  slug: society-policy
+  num: 3
+  title: "Stakeholder Perspectives, Societal Impact and Policy"
+  short: "Society & Policy"
+  summary: "Who gains and who bears the costs of AI-supported decisions, and how stakeholder perspectives can be made visible before decisions are taken."
+- id: governance
+  slug: risk-governance
+  num: 4
+  title: "AI Risk, Governance and Responsible Autonomy"
+  short: "Risk & Governance"
+  summary: "Risk analysis, human oversight and calibrated reliance: deciding when a system may act on its own and when a person has to step in."
+- id: trustworthy
+  slug: trustworthy-ai
+  num: 5
+  title: "Trustworthy, Context-Aware and Explainable AI"
+  short: "Trustworthy AI"
+  summary: "Knowledge graphs, context engineering and verifiable LLM agents – and explanations that are judged by whether they improve decisions."
+- id: industry
+  slug: human-centered-industry
+  num: 6
+  title: "Human-Centered Industry (Industry 5.0)"
+  short: "Human-Centered Industry"
+  summary: "Operators, human–AI teaming, digital twins and immersive environments as a validation ground for competence, oversight and workload."
+- id: education
+  slug: learning-education
+  num: 7
+  title: "AI in Education and Learning Support"
+  short: "Learning & Education"
+  summary: "Designing AI that strengthens learning instead of replacing it, and assessment that stays valid when AI is everywhere."
+- id: university
+  slug: ai-supported-university
+  num: 8
+  title: "The AI-Supported University and Institutional Decisions"
+  short: "AI-Supported University"
+  summary: "Data-informed decision support in a university where people keep the responsibility – with fairness, accountability and trust built in."
+- id: enterprises
+  slug: enterprises-smes
+  num: 9
+  title: "Building AI Capability in Enterprises and SMEs"
+  short: "Enterprises & SMEs"
+  summary: "What drives the AI capability of small and medium-sized enterprises – leadership, data and skills, or the trust and competence of employees."

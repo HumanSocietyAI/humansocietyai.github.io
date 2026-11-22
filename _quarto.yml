@@ -1,0 +1,100 @@
+project:
+  type: website
+  output-dir: _site
+  pre-render: python3 scripts/build_data.py
+  render:
+    - "**/*.qmd"
+  resources:
+    - assets/
+    - .nojekyll
+
+lang: en
+
+website:
+  title: "Human- and Society-Centered AI Research Network"
+  description: "A cross-faculty research network of the University of Pannonia studying how AI changes people, organizations and society – and how to design AI that works for people."
+  site-url: "https://humansocietyai.github.io"
+  repo-url: "https://github.com/HumanSocietyAI/humansocietyai.github.io"
+  favicon: assets/img/favicon.svg
+  open-graph:
+    image: assets/img/og-image.png
+  page-navigation: false
+  bread-crumbs: false
+  back-to-top-navigation: true
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    logo: assets/logo/pe-logo-horizontal-white.svg
+    logo-alt: "University of Pannonia"
+    title: "Human- and Society-Centered AI Research Network"
+    collapse-below: lg
+    pinned: true
+    left: []
+    right:
+      - text: "Research"
+        menu:
+          - text: "Overview"
+            href: research/index.qmd
+          - text: "---"
+          - text: "1 · Minds & Relationships"
+            href: research/minds-relationships.qmd
+          - text: "2 · Organizations & Knowledge"
+            href: research/organizations-knowledge.qmd
+          - text: "3 · Society & Policy"
+            href: research/society-policy.qmd
+          - text: "4 · Risk & Governance"
+            href: research/risk-governance.qmd
+          - text: "5 · Trustworthy AI"
+            href: research/trustworthy-ai.qmd
+          - text: "6 · Human-Centered Industry"
+            href: research/human-centered-industry.qmd
+          - text: "7 · Learning & Education"
+            href: research/learning-education.qmd
+          - text: "8 · AI-Supported University"
+            href: research/ai-supported-university.qmd
+          - text: "9 · Enterprises & SMEs"
+            href: research/enterprises-smes.qmd
+      - text: "Approach"
+        href: approach.qmd
+      - text: "People"
+        href: people.qmd
+      - text: "Studies"
+        menu:
+          - text: "Planned studies"
+            href: planned-studies.qmd
+          - text: "Doctoral research"
+            href: doctoral.qmd
+          - text: "Publications"
+            href: publications.qmd
+      - text: "News & Events"
+        menu:
+          - text: "News"
+            href: news/index.qmd
+          - text: "Events"
+            href: events.qmd
+          - text: "Activities"
+            href: activities.qmd
+      - text: "About"
+        href: about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - assets/css/pe.scss
+    css: assets/css/fonts.css
+    toc: false
+    smooth-scroll: true
+    anchor-sections: false
+    link-external-icon: false
+    link-external-newwindow: false
+    email-obfuscation: javascript
+    html-math-method: plain
+    include-before-body: _partials/topbar.html
+    include-after-body:
+      - _partials/footer.html
+      - _partials/scripts.html
+    grid:
+      body-width: 980px
+      margin-width: 250px

@@ -1,0 +1,51 @@
+---
+title: "The AI-Supported University and Institutional Decisions"
+subtitle: "Research line 8 · AI-Supported University"
+description: "Data-informed decision support in a university where people keep the responsibility – with fairness, accountability and trust built in."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 8 of 9</span><p>We speak of an AI-supported university with human responsibility, not an “AI-driven” one: a learning organization in which data and AI support the preparation of decisions, the flow of knowledge and services, while responsibility stays with people.</p></div>
+```
+
+## The problem
+
+The name carries an organizational-psychology message: it is worth studying how the way an AI introduction is communicated affects people’s sense of control and willingness to participate – without assuming that wording alone causes acceptance or resistance. Management research describes the automation–augmentation paradox: the two strategies presuppose each other, and emphasizing either one alone has unfavorable consequences.
+
+The university’s Strategic Planning and Analysis Centre supports data-informed decisions with data-science and AI tools. Research connected to it already covers educational and occupational networks, explainable turnover prediction in organizational networks, the analysis of student course-evaluation texts and the distribution-based assessment of research capacity. The relationship is mutual: real institutional questions and data on one side, methodological, ethical and impact-assessment expertise on the other.
+
+Researching one’s own institution carries specific risks. Operational and research roles must be kept apart, ethics approval obtained in advance and negative results published. Participants are employees and students who depend on the institution, so participation is voluntary and without consequences, data are collected anonymously and, where possible, by people independent of the unit studied. No automatic personnel evaluation or ranking may be derived from the analyses.
+
+## Research questions
+
+::: {.rq-list}
+- How do the quality, speed and acceptance of decisions change when their preparation is AI-supported – including the distributive, procedural, interpersonal and informational aspects of fairness?
+- Under which accountability and trust conditions do staff accept data-informed decision support, and where do indicators start to invite gaming?
+- How can an institutional knowledge base and relationship management reduce silos?
+- How can research and teaching performance be assessed in a developmental rather than ranking way, in line with the CoARA principles?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+Institutional analytics, network science applied to organizational and educational data, OpenAlex-based analyses of research capacity and digital pedagogy are the main competences; the university’s own AI deployments can serve as a living lab with consent and ethics approval.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H7** AI-supported decision preparation in an institution improves the quality and acceptance of decisions if decision responsibility, data provenance and the limitations of the models are transparent.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-university.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/learning-education.html">← 7 · Learning & Education</a>
+<a href="/research/enterprises-smes.html">9 · Enterprises & SMEs →</a>
+</nav>
+```

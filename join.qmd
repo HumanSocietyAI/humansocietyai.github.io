@@ -1,0 +1,28 @@
+---
+title: "Join the network"
+subtitle: "Open to researchers, doctoral candidates and partners"
+description: "How to join the Human- and Society-Centered AI Research Network."
+---
+
+::: {.page-lead}
+Membership is open to researchers and doctoral candidates of the University of Pannonia from every faculty and campus, and to external researchers who want to work on the network’s questions.
+:::
+
+## How to join
+
+Write to the coordinator with your name and affiliation, your ORCID iD (if you have one), a few sentences on your research interest, and the research lines you would like to connect to. We will add your profile to the [People](/people.html) page and invite you to the forum and the research clinic.
+
+```{=html}
+<p><a class="btn-pe-red js-mail" href="#" data-u="sonaj.iynoba" data-d="uh.nonnap-inu.km">Write to the coordinator</a></p>
+```
+
+## How we work together
+
+::: {.principles}
+- **Open and voluntary.** Anyone working on the network’s questions can join; participation is voluntary and can end at any time.
+- **Home units stay.** Members keep their faculties, institutes and projects; the network adds connections, not hierarchy.
+- **Transparent credit.** Contributions and authorship are agreed in advance according to transparent principles and documented.
+- **Shared affiliation.** In joint work we use “Human- and Society-Centered AI Research Network, University of Pannonia” alongside the home unit.
+- **Research ethics first.** Studies with personal data need a legal basis, approval and data minimization; no automatic personnel evaluation or ranking may be derived from them.
+- **Openness.** Where possible we share methods, reproducible code, anonymized data and research data sheets.
+:::

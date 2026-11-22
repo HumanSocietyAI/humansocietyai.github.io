@@ -1,0 +1,678 @@
+# Members of the Human- and Society-Centered AI Research Network.
+#
+# One entry per person. Fields:
+#   id          unique slug (used in URLs and the network graph)
+#   given/family  name parts; displayed in Western order (given family)
+#   position    position in English
+#   role        optional network role (only the coordinator at present)
+#   faculty / unit / department   organizational placement, as far as public sources give it
+#   campus      Veszprém | Zalaegerszeg | Nagykanizsa | External
+#   email       written without "@" on purpose (user / domain) – the page assembles it in the browser
+#   orcid, scholar (Google Scholar user id), openalex (author id), website, university_url, photo
+#   lines       research-line ids from data/lines.yml (first = main line)
+#   bio         about 40 words, drafted from public sources; members may request corrections
+#
+# Sources: university staff pages, ORCID public records, OpenAlex, Google Scholar profiles
+# (checked November 2026). Corrections: abonyi.janos (at) mk.uni-pannon.hu
+
+- id: janos-abonyi
+  given: János
+  family: Abonyi
+  position: Professor
+  role: Coordinator
+  faculty: Faculty of Engineering
+  unit: Research Centre for Biochemical, Environmental and Chemical Engineering
+  department: Department of Process Engineering
+  campus: Veszprém
+  email: {user: abonyi.janos, domain: mk.uni-pannon.hu}
+  orcid: 0000-0001-8593-1493
+  scholar: u1uw8A8AAAAJ
+  openalex: A5063684561
+  website: https://www.abonyilab.com/
+  university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/abonyi-janos.html
+  photo: https://uni-pannon.hu/images/2024/02/IMG_5433.jpg
+  lines: [trustworthy, governance, society]
+  bio: "Works on explainable and verifiable machine learning, network and hypergraph science, and human-centered AI in organizational and industrial systems. Coordinates the network and links its work on persona-based impact assessment, AI risk analysis and agent-based methods."
+
+- id: ferenc-andras
+  given: Ferenc
+  family: András
+  position: Associate Professor
+  faculty: Faculty of Humanities
+  unit: Institute of Social Sciences
+  campus: Veszprém
+  email: {user: andras.ferenc, domain: htk.uni-pannon.hu}
+  orcid: 0009-0002-9995-8173
+  openalex: A5068702409
+  website: https://ferenc.andrasek.hu/
+  university_url: https://tti.htk.uni-pannon.hu/az-intezetrol/oktatoink
+  photo: https://tti.htk.uni-pannon.hu/images/andrs_ferenc.jpg
+  lines: [society, minds, governance]
+  bio: "Philosopher working on social communication, digital meaning, logic and cybernetic models in philosophy; contributes the normative and ethical perspective on the societal impact of AI."
+
+- id: beata-bajzek
+  given: Beáta
+  family: Bajzek
+  position: Associate Professor, Head of Department
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Innovation Management
+  campus: Veszprém
+  email: {user: bajzek.beata, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0001-6707-9081
+  scholar: Xrr_ePEAAAAJ
+  openalex: A5099133344
+  university_url: https://www.gtk.uni-pannon.hu/hu/fehervolgyibeata/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Fehervolgyi-Beata-1-e1627462210196-300x300.jpg
+  lines: [society, enterprises]
+  bio: "Works on regional and tourism development, place marketing and social innovation, including expert perspectives on the societal impact of digital transformation and science and technology parks as complex systems."
+
+- id: laszlo-bantay
+  given: László
+  family: Bántay
+  position: Junior Research Fellow
+  faculty: Faculty of Engineering
+  unit: Research Centre for Biochemical, Environmental and Chemical Engineering
+  department: Department of Process Engineering
+  campus: Veszprém
+  email: {user: bantay.laszlo, domain: mk.uni-pannon.hu}
+  orcid: 0000-0003-1948-6656
+  scholar: Y0fsvxUAAAAJ
+  openalex: A5019247311
+  university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/bantay-laszlo.html
+  lines: [industry, trustworthy]
+  bio: "Works on data mining and business process analysis, with a focus on the data-driven design of operator interfaces and alarm management in human–machine systems."
+
+- id: eva-bodnar
+  given: Éva
+  family: Bodnár
+  position: Associate Professor
+  faculty: Faculty of Humanities
+  unit: Institute of Psychology and Mental Health
+  department: Department of Psychology
+  campus: Veszprém
+  email: {user: bodnar.eva, domain: htk.uni-pannon.hu}
+  orcid: 0009-0005-9115-421X
+  scholar: Vau7QhYAAAAJ
+  openalex: A5145008966
+  university_url: https://pmi.htk.uni-pannon.hu/az-intezetrol/munkatarsaink-pmi
+  photo: https://pmi.htk.uni-pannon.hu/media/com_sppagebuilder/placeholder/img_9482_pp.jpg
+  lines: [organizations, minds, education]
+  bio: "Psychologist working on organizational learning, skills development and change management, with expertise in qualitative and mixed-methods research. Helps anchor the network’s psychological frameworks and its shared measurement principles."
+
+- id: gabor-bohar
+  given: Gábor
+  family: Bohár
+  position: Departmental Engineer
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: bohar.gabor, domain: mik.uni-pannon.hu}
+  orcid: 0009-0000-3864-976X
+  openalex: A5118596303
+  university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/bohar-gabor
+  photo: https://dcs.uni-pannon.hu/images/staff/small/boharg2026.jpg
+  lines: [industry, trustworthy]
+  bio: "Works on machine learning and IT solutions for industry, including digital transformation, multi-criteria decision making and reliability and maintenance optimization."
+
+- id: nikolett-bosnyak-simon
+  given: Nikolett
+  family: Bosnyák-Simon
+  position: Assistant Professor
+  faculty: Faculty of Business and Economics
+  unit: Institute of Business Studies
+  department: Department of Accounting and Finance
+  campus: Veszprém
+  email: {user: simon.nikolett, domain: gtk.uni-pannon.hu}
+  orcid: 0009-0001-8927-7828
+  openalex: A5040747485
+  university_url: https://www.gtk.uni-pannon.hu/hu/simonnikolett/
+  photo: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/06/Bosny%C3%A1k-Simon-Nikolett2-e1755064393599-300x300.jpg"
+  lines: [enterprises]
+  bio: "Works in accounting and finance, with research on corporate social responsibility reporting and entrepreneurship; contributes an economics and business perspective to the network."
+
+- id: can-togay
+  given: Can
+  family: Togay
+  position: Researcher, film director and visual artist
+  affiliation: External member
+  campus: External
+  email: {user: cantogay, domain: gmail.com}
+  website: https://en.wikipedia.org/wiki/Can_Togay
+  lines: [minds, society]
+  bio: "Film director, screenwriter, poet and visual artist; co-creator of the Shoes on the Danube Bank memorial in Budapest. Works on human dignity in the age of AI and on dialogue between science, philosophy, theology and the arts."
+
+- id: laszlo-czuni
+  given: László
+  family: Czúni
+  position: Associate Professor, Vice-Dean
+  faculty: Faculty of Information Technology
+  department: Department of Electrical Engineering and Information Systems
+  campus: Veszprém
+  email: {user: czuni.laszlo, domain: mik.uni-pannon.hu}
+  orcid: 0000-0001-7667-9513
+  scholar: k67QWMwAAAAJ
+  openalex: A5044206520
+  university_url: https://virt.uni-pannon.hu/index.php/hu/a-tanszekrol/munkatarsak
+  photo: https://virt.uni-pannon.hu/images/virt_imgs/staff_imgs/CLaszlo.jpg
+  lines: [industry, trustworthy]
+  bio: "Works on image and video processing, video-based workflow recognition and visual human–machine interfaces, including industrial vision systems and neural-network applications."
+
+- id: zoltan-andras-daniel
+  given: Zoltán András
+  family: Dániel
+  position: Associate Professor
+  faculty: Faculty of Business and Economics
+  unit: Institute of Economics
+  department: Department of Business Economics
+  campus: Veszprém
+  email: {user: daniel.zoltan, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0001-5347-4785
+  scholar: Qt6YPhwAAAAJ
+  openalex: A5018914933
+  university_url: https://www.gtk.uni-pannon.hu/hu/danielzoltan/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Daniel-Zoltan-Andras2-e1627548262845-300x300.jpg
+  lines: [minds, enterprises]
+  bio: "Works in business economics on sustainability and ESG investment, and on AI anthropomorphism – how human-like AI shapes users’ trust and their vulnerability to manipulation."
+
+- id: gyorgy-dosa
+  given: György
+  family: Dósa
+  position: Professor
+  faculty: Faculty of Information Technology
+  department: Department of Mathematics
+  campus: Veszprém
+  email: {user: dosa.gyorgy, domain: mik.uni-pannon.hu}
+  orcid: 0000-0002-4909-6694
+  scholar: giS5L3oAAAAJ
+  openalex: A5069718437
+  university_url: https://math.uni-pannon.hu/index.php/tanszekrol/munkatarsak/dosa-gyorgy
+  lines: [trustworthy, industry]
+  bio: "Mathematician working on discrete mathematics and combinatorial optimization, including bin packing, online scheduling and algorithms on graphs."
+
+- id: tibor-dulai
+  given: Tibor
+  family: Dulai
+  position: Assistant Professor
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: dulai.tibor, domain: mik.uni-pannon.hu}
+  orcid: 0000-0002-9609-1538
+  openalex: A5053813785
+  university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/dr-dulai-tibor
+  photo: https://dcs.uni-pannon.hu/images/staff/small/dulait.jpg
+  lines: [trustworthy, industry]
+  bio: "Works on decision support, scheduling and the analysis of industrial and business processes, including fault diagnosis and data-intensive AI methods."
+
+- id: andras-eles
+  given: András
+  family: Éles
+  position: Assistant Professor
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: eles.andras, domain: mik.uni-pannon.hu}
+  orcid: 0000-0002-5000-3395
+  openalex: A5008791127
+  university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/eles-andras
+  photo: https://dcs.uni-pannon.hu/images/staff/small/elesa.jpg
+  lines: [industry, enterprises]
+  bio: "Works in operations research and mathematical programming, with applications in supply chains, integrated energy systems and process optimization."
+
+- id: helga-feher
+  given: Helga
+  family: Fehér
+  position: Associate Professor, Head of Department, Vice-Dean for Academic Affairs
+  faculty: Faculty of Business and Economics
+  unit: Institute of Business Studies
+  department: Department of Accounting and Finance
+  campus: Veszprém
+  email: {user: feher.helga, domain: gtk.uni-pannon.hu}
+  orcid: 0009-0003-9160-0713
+  openalex: A5005782318
+  university_url: https://www.gtk.uni-pannon.hu/hu/feherhelga/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Feher-Helga2-e1627467580546-300x300.jpg
+  lines: [enterprises, governance]
+  bio: "Works in accounting and accounting control; within the network she contributes to the strand on AI-supported auditing."
+
+- id: agnes-vathy-fogarassy
+  given: Ágnes
+  family: Vathy-Fogarassy
+  position: Associate Professor, Head of Department
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: vathy.agnes, domain: mik.uni-pannon.hu}
+  orcid: 0000-0002-5524-1675
+  scholar: jOCQt8gAAAAJ
+  openalex: A5080658307
+  website: https://mik.uni-pannon.hu/en/research-development/research-laboratories/data-intensive-artificial-intelligence-methods-and-systems-research-laboratory
+  university_url: https://dcs.uni-pannon.hu/en/staff/head-of-department/agnes-vathy-fogarassy
+  photo: https://dcs.uni-pannon.hu/images/staff/small/Fogarassyne_kep2b.jpg
+  lines: [trustworthy, university]
+  bio: "Works on machine learning, clustering and process mining with clinical and healthcare data, and on explainable AI; heads the Data-intensive Artificial Intelligence Methods and Systems Research Laboratory."
+
+- id: marton-frits
+  given: Márton
+  family: Frits
+  position: Associate Professor
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: frits.marton, domain: mik.uni-pannon.hu}
+  orcid: 0000-0003-3388-5290
+  scholar: vH4Wp24AAAAJ
+  openalex: A5029881596
+  university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/frits-marton
+  photo: https://dcs.uni-pannon.hu/images/staff/small/frits_marton_small.JPG
+  lines: [trustworthy, industry]
+  bio: "Computer scientist working on process optimization and integration, scheduling and mathematical programming."
+
+- id: laszlo-gadar
+  given: László
+  family: Gadár
+  position: Researcher
+  faculty: University of Pannonia
+  unit: Strategic Planning and Analysis Centre (STEK)
+  campus: Veszprém
+  email: {user: gadar.laszlo, domain: mk.uni-pannon.hu}
+  orcid: 0000-0003-2581-7917
+  scholar: c_WbFpUAAAAJ
+  openalex: A5088834684
+  university_url: https://www.gtk.uni-pannon.hu/hu/laszlogadar/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2017/06/Gadar-Laci-200x300.jpg
+  lines: [university, organizations, trustworthy]
+  bio: "Works on network science and organizational data, including education–occupation networks of graduates and the explainable prediction of employee turnover in multilayer networks; supports data-informed institutional decision-making."
+
+- id: tibor-guzsvinecz
+  given: Tibor
+  family: Guzsvinecz
+  position: Associate Professor
+  faculty: Faculty of Information Technology
+  department: Department of Information Systems and Applications
+  campus: Zalaegerszeg
+  email: {user: guzsvinecz.tibor, domain: zek.uni-pannon.hu}
+  orcid: 0000-0003-3273-313X
+  scholar: 03Sg_PgAAAAJ
+  openalex: A5041628463
+  website: https://guzsvinecz.com/
+  university_url: https://zek.uni-pannon.hu/hu/rolunk-2/munkatarsak.html
+  lines: [minds, education, industry]
+  bio: "Works on virtual and augmented reality, human–computer interaction and user experience, including educational games, gamification and spatial cognition."
+
+- id: nora-hegedusne-baranyai
+  given: Nóra
+  family: Hegedűsné Baranyai
+  position: Associate Professor, Research Group Leader
+  faculty: University Centre for Circular Economy, Nagykanizsa
+  unit: Soós Ernő Research and Development Centre
+  campus: Nagykanizsa
+  email: {user: baranyai.nora, domain: pen.uni-pannon.hu}
+  orcid: 0000-0003-2901-4011
+  openalex: A5102920109
+  university_url: https://pen.uni-pannon.hu/munkatarsak-soos-erno-kutato-fejleszto-kozpont/
+  photo: https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9789_Baranyai-Nora.png
+  lines: [society, enterprises]
+  bio: "Works on applied statistics and regional analysis, with research on renewable energy, photovoltaic systems, energy storage and the economics of electric mobility."
+
+- id: maria-kisgyorgy-pal
+  given: Mária
+  family: Kisgyörgy-Pál
+  position: Assistant Professor
+  faculty: Faculty of Business and Economics
+  unit: Institute of Business Studies
+  department: Department of Accounting and Finance
+  campus: Veszprém
+  email: {user: kisgyorgy-pal.maria, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0003-3387-7370
+  openalex: A5025146432
+  university_url: https://www.gtk.uni-pannon.hu/hu/kisgyorgy-pal-maria/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2026/09/kisgyorgy_pal_maria-1024x1024.jpg
+  lines: [enterprises]
+  bio: "Works on quantitative methods for project planning and project management, and on the use of AI in accounting valuation."
+
+- id: zsolt-tibor-kosztyan
+  given: Zsolt Tibor
+  family: Kosztyán
+  position: Professor, Head of Department
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Quantitative Methods
+  campus: Veszprém
+  email: {user: kosztyan.zsolt, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0001-7345-8336
+  openalex: A5078544913
+  university_url: https://www.gtk.uni-pannon.hu/kosztyanzsolttibor/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Kosztyan-Zsolt-Tibor-e1628245809739-300x300.jpg
+  lines: [university, organizations, society]
+  bio: "Works on project management and operations research, mathematical optimization, economic and social networks, and higher-education rankings and academic mobility."
+
+- id: mark-kovacs
+  given: Márk
+  family: Kovács
+  position: Master Lecturer
+  faculty: Faculty of Humanities
+  unit: Institute of Digital Methodology
+  campus: Veszprém
+  email: {user: kovacs.mark, domain: htk.uni-pannon.hu}
+  scholar: uMGyap0AAAAJ
+  university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
+  photo: "https://dmi.htk.uni-pannon.hu/images/Kov%C3%A1cs_M%C3%A1rk_dmi.jpg"
+  lines: [education]
+  bio: "Works on AI tools that support research and on digital education."
+
+- id: dorottya-edina-kozma
+  given: Dorottya Edina
+  family: Kozma
+  position: Associate Professor
+  faculty: Faculty of Business and Economics
+  unit: Institute of Business Studies
+  department: Department of Accounting and Finance
+  campus: Veszprém
+  email: {user: kozma.dorottya.edina, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0002-4948-8815
+  scholar: h-ZsogoAAAAJ
+  openalex: A5081013616
+  university_url: https://www.gtk.uni-pannon.hu/hu/kozmadorottya/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/01/Kozma_Dorottya-300x300.jpg
+  lines: [enterprises, governance]
+  bio: "Works in accounting and finance, with research on sustainability in business and on the corporate use of AI."
+
+- id: alex-kummer
+  given: Alex
+  family: Kummer
+  position: Associate Professor
+  faculty: Faculty of Engineering
+  unit: Research Centre for Biochemical, Environmental and Chemical Engineering
+  department: Department of Process Engineering
+  campus: Veszprém
+  email: {user: kummer.alex, domain: mk.uni-pannon.hu}
+  orcid: 0000-0002-6550-5101
+  scholar: bMren10AAAAJ
+  openalex: A5007748311
+  university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/kummer-alex.html
+  photo: https://mk.uni-pannon.hu/images/tanszekek/VFI/P1020523_Fotor_cr.jpg
+  lines: [industry, trustworthy, governance]
+  bio: "Works on machine learning, process modeling and industrial data analysis, including MLOps and DataOps practices that keep people in the supervisory loop of deployed models."
+
+- id: andrea-matlari
+  given: Andrea
+  family: Matlári
+  position: Master Lecturer
+  faculty: Faculty of Humanities
+  unit: Institute of Digital Methodology
+  campus: Veszprém
+  email: {user: matlari.andrea, domain: htk.uni-pannon.hu}
+  scholar: DFz_S4oAAAAJ
+  openalex: A5041774380
+  university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
+  photo: https://dmi.htk.uni-pannon.hu/images/matlariandrea.jpg
+  lines: [education]
+  bio: "Works on online course development and AI-based educational applications in higher education, and on what generative AI means for teaching in universities."
+
+- id: nora-obermayer
+  given: Nóra
+  family: Obermayer
+  position: Professor, Head of Department
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Management
+  campus: Veszprém
+  email: {user: obermayer.nora, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0001-5036-314X
+  scholar: VrKSfRcAAAAJ
+  openalex: A5046151700
+  university_url: https://www.gtk.uni-pannon.hu/hu/obermayernora/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Obermayer-Nora-e1627907686270-300x300.jpg
+  lines: [organizations, governance, enterprises]
+  bio: "Works on knowledge management, organizational learning and AI adoption, including organizational silos and the competencies organizations need to govern AI."
+
+- id: janos-olle
+  given: János
+  family: Ollé
+  position: Senior Research Fellow
+  faculty: Faculty of Humanities
+  unit: Institute of Digital Methodology
+  campus: Veszprém
+  email: {user: olle.janos, domain: htk.uni-pannon.hu}
+  orcid: 0000-0002-2479-3960
+  scholar: 37AdIw8AAAAJ
+  openalex: A5042078874
+  university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
+  photo: https://dmi.htk.uni-pannon.hu/images/ollejanos_2024.jpg
+  lines: [education, university]
+  bio: "Works on digital pedagogy, the use of AI in higher education and teaching methodology, including prompting as a new competence and AI in course development."
+
+- id: oliver-osz
+  given: Olivér
+  family: Ősz
+  position: Assistant Professor
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: osz.oliver, domain: mik.uni-pannon.hu}
+  orcid: 0000-0001-5306-0451
+  scholar: QLgiNmUAAAAJ
+  openalex: A5029527446
+  university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/dr-osz-oliver
+  photo: https://dcs.uni-pannon.hu/images/staff/small/oszo.jpg
+  lines: [trustworthy, industry]
+  bio: "Works on scheduling industrial processes, including S-graph methods, robust scheduling under uncertainty and the mitigation of supply-chain disruptions."
+
+- id: tamas-ruppert
+  given: Tamás
+  family: Ruppert
+  position: Associate Professor
+  faculty: Faculty of Engineering
+  unit: Research Centre for Engineering Sciences
+  department: Department of System Engineering
+  campus: Veszprém
+  email: {user: ruppert.tamas, domain: mk.uni-pannon.hu}
+  orcid: 0000-0001-9441-843X
+  scholar: dBrqvqQAAAAJ
+  openalex: A5027970634
+  website: https://www.operator4.com/
+  university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/ruppert-tamas.html
+  photo: https://tehetseggondozas.mk.uni-pannon.hu/images/szemelyek/TamasRuppert.jpg
+  lines: [industry, organizations]
+  bio: "Works on Industry 5.0, human–AI teaming and operator support, human-centered manufacturing and digital twins, with the Industry 5.0 Laboratory as a testbed."
+
+- id: judit-gabriella-sass
+  given: Judit Gabriella
+  family: Sass
+  position: Associate Professor, Head of Institute
+  faculty: Faculty of Humanities
+  unit: Institute of Psychology and Mental Health
+  department: Department of Psychology
+  campus: Veszprém
+  email: {user: sass.judit.gabriella, domain: htk.uni-pannon.hu}
+  orcid: 0000-0002-7717-7643
+  scholar: 58RGpkEAAAAJ
+  openalex: A5064392438
+  university_url: https://pmi.htk.uni-pannon.hu/az-intezetrol/munkatarsaink-pmi
+  photo: https://pmi.htk.uni-pannon.hu/media/com_sppagebuilder/placeholder/img_9525_pp.jpg
+  lines: [minds, organizations]
+  bio: "Organizational psychologist working on psychological safety, creative self-efficacy and human–AI collaboration."
+
+- id: viktor-sebestyen
+  given: Viktor
+  family: Sebestyén
+  position: Senior Research Fellow
+  faculty: Faculty of Engineering
+  unit: Research Centre for Biochemical, Environmental and Chemical Engineering
+  department: Sustainability Solutions Research Laboratory
+  campus: Veszprém
+  email: {user: sebestyen.viktor, domain: mk.uni-pannon.hu}
+  orcid: 0000-0003-0670-9195
+  scholar: g0_46QEAAAAJ
+  openalex: A5006045569
+  university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/sebestyen-viktor.html
+  photo: "https://mk.uni-pannon.hu/images/tanszekek/FMK/Sebesty%C3%A9n_Viktor.jpg"
+  lines: [society]
+  bio: "Works on sustainability assessment, evidence-based decision support and the Sustainable Development Goals, using environmental and network analysis."
+
+- id: cecilia-sik-lanyi
+  given: Cecília
+  family: Sik-Lányi
+  position: Professor
+  faculty: Faculty of Information Technology
+  department: Department of Electrical Engineering and Information Systems
+  campus: Veszprém
+  email: {user: lanyi.cecilia, domain: mik.uni-pannon.hu}
+  orcid: 0000-0003-3142-6824
+  openalex: A5086010350
+  university_url: https://virt.uni-pannon.hu/index.php/hu/a-tanszekrol/oktatoi-oldalak/365-sikne-lanyi-cecilia
+  photo: https://virt.uni-pannon.hu/images/virt_imgs/staff_imgs/LCecilia.jpg
+  lines: [minds, education, society]
+  bio: "Works on human–computer interaction, virtual and augmented reality, and accessible, inclusive systems, including usability, serious games and technologies for people with disabilities."
+
+- id: zoltan-sule
+  given: Zoltán
+  family: Süle
+  position: Associate Professor
+  faculty: Faculty of Information Technology
+  department: Department of Computer Science and Systems Technology
+  campus: Veszprém
+  email: {user: sule.zoltan, domain: mik.uni-pannon.hu}
+  orcid: 0000-0002-5589-2355
+  scholar: H69UtB0AAAAJ
+  openalex: A5082658016
+  website: https://www.dcs.uni-pannon.hu/sule/
+  university_url: https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/sule-zoltan
+  photo: https://dcs.uni-pannon.hu/images/staff/small/sule_zoltan_small.JPG
+  lines: [trustworthy, industry]
+  bio: "Works on optimization, process network synthesis and simulation, with applications in healthcare and information security."
+
+- id: julia-tobak
+  given: Júlia
+  family: Tobak
+  position: Research Fellow
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Innovation Management
+  campus: Veszprém
+  email: {user: tobak.julia, domain: gtk.uni-pannon.hu}
+  orcid: 0009-0008-8570-0618
+  openalex: A5115442687
+  university_url: https://www.gtk.uni-pannon.hu/hu/drtobakjulia/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/08/tobakjulia-300x300.png
+  lines: [enterprises]
+  bio: "Works on family businesses, enterprise development and innovation management."
+
+- id: henrik-zsiboracs
+  given: Henrik
+  family: Zsiborács
+  position: Senior Research Fellow
+  faculty: University Centre for Circular Economy, Nagykanizsa
+  unit: Soós Ernő Research and Development Centre
+  campus: Nagykanizsa
+  email: {user: zsiboracs.henrik, domain: pen.uni-pannon.hu}
+  orcid: 0000-0002-8582-5225
+  scholar: rpdJR5EAAAAJ
+  openalex: A5013251864
+  university_url: https://pen.uni-pannon.hu/munkatarsak-soos-erno-kutato-fejleszto-kozpont/
+  photo: https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9796_Zsiboracs-Henrik.png
+  lines: [society]
+  bio: "Works on energy systems and sustainability, with research on photovoltaic technologies, renewable energy integration and energy storage."
+
+- id: aniko-csepregi
+  given: Anikó
+  family: Csepregi
+  position: Associate Professor
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Management
+  campus: Veszprém
+  email: {user: csepregi.aniko, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0002-0100-659X
+  scholar: A2bUWzYAAAAJ
+  openalex: A5065241311
+  university_url: https://www.gtk.uni-pannon.hu/csepregianiko/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2025/08/Csepregi_Aniko-300x300.jpg
+  lines: [organizations, governance]
+  bio: "Works on knowledge management and knowledge sharing in organizations, and on the ethics of AI-based human resource management."
+
+- id: edit-kovari
+  given: Edit
+  family: Kővári
+  position: Associate Professor
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Management
+  campus: Veszprém
+  email: {user: kovari.edit, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0001-8551-7196
+  scholar: Flg7riIAAAAJ
+  openalex: A5068662804
+  university_url: https://www.gtk.uni-pannon.hu/kovariedit/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Kovari-Edit-e1627908648956-300x300.jpg
+  lines: [organizations, minds]
+  bio: "Works on leaders’ emotional skills and competence management, including digital leadership behavior and technostress in AI-supported work environments."
+
+- id: timea-czvetko
+  given: Tímea
+  family: Czvetkó
+  position: Junior Research Fellow
+  faculty: Faculty of Engineering
+  unit: Research Centre for Biochemical, Environmental and Chemical Engineering
+  department: Department of Process Engineering
+  campus: Veszprém
+  email: {user: czvetko.timea, domain: mk.uni-pannon.hu}
+  orcid: 0000-0002-3745-6752
+  scholar: U6dQryUAAAAJ
+  openalex: A5062173726
+  university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/czvetko-timea.html
+  photo: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/picture/external/czvetko_timea_cr.jpg
+  lines: [enterprises, industry]
+  bio: "Works on Industry 4.0 readiness and digital transformation, and leads work on the AI-maturity survey of small and medium-sized enterprises run jointly with the National Association of Entrepreneurs and Employers (VOSZ)."
+
+- id: agnes-werner-stark
+  given: Ágnes
+  family: Werner-Stark
+  position: Associate Professor
+  faculty: Faculty of Information Technology
+  department: Department of Electrical Engineering and Information Systems
+  campus: Veszprém
+  email: {user: werner.agnes, domain: mik.uni-pannon.hu}
+  orcid: 0000-0002-6140-1233
+  scholar: -wJ4JqEAAAAJ
+  openalex: A5089310459
+  university_url: https://virt.uni-pannon.hu/index.php/hu/a-tanszekrol/oktatoi-oldalak/219-starkne-werner-agnes
+  photo: https://virt.uni-pannon.hu/images/users/werner.agnes/SWA2.jpg
+  lines: [trustworthy, industry]
+  bio: "Works on business process modeling, scheduling and vehicle routing, and on data-intensive AI methods, including decision support with the clinician in the loop."
+
+- id: csaba-hegedus
+  given: Csaba
+  family: Hegedűs
+  position: Associate Professor, Head of Department
+  faculty: Faculty of Business and Economics
+  unit: Institute of Management
+  department: Department of Supply Chain Management
+  campus: Veszprém
+  email: {user: hegedus.csaba, domain: gtk.uni-pannon.hu}
+  orcid: 0000-0001-9556-2927
+  scholar: p7bGxI8AAAAJ
+  openalex: A5063261640
+  university_url: https://www.gtk.uni-pannon.hu/hu/hegeduscsaba/
+  photo: https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Hegedus-Csaba-e1628245773386-300x300.jpg
+  lines: [enterprises, industry]
+  bio: "Works on supply chain management, statistical quality control and digital transformation, including the division of labor between planners and LLM agents in materials planning."
+
+- id: vera-varga
+  given: Vera
+  family: Varga
+  position: Assistant Professor
+  faculty: Faculty of Humanities
+  unit: Institute of Psychology and Mental Health
+  department: Department of Psychology
+  campus: Veszprém
+  email: {user: varga.vera, domain: htk.uni-pannon.hu}
+  orcid: 0000-0002-0031-6174
+  scholar: 8oJ0eVIAAAAJ
+  openalex: A5077490418
+  university_url: https://pmi.htk.uni-pannon.hu/az-intezetrol/munkatarsaink-pmi
+  photo: https://pmi.htk.uni-pannon.hu/media/com_sppagebuilder/placeholder/img_9427_pp.jpg
+  lines: [minds, education, industry]
+  bio: "Cognitive psychologist working on reading, orthographic learning and language development; contributes a cognitive psychology perspective to the network."

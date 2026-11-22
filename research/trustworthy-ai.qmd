@@ -1,0 +1,43 @@
+---
+title: "Trustworthy, Context-Aware and Explainable AI"
+subtitle: "Research line 5 · Trustworthy AI"
+description: "Knowledge graphs, context engineering and verifiable LLM agents – and explanations that are judged by whether they improve decisions."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 5 of 9</span><p>The technological line connects human and stakeholder expectations with concepts, roles and constraints that machines can process – and checks whether systems and their explanations actually deserve the trust placed in them.</p></div>
+```
+
+## The problem
+
+Ontology-based context engineering brings together RDF/OWL knowledge graphs, data and claim provenance, SHACL validation, diagnostics of embedding spaces, rule-guided assembly of context and verifiable operation of LLMs and agents.
+
+A further strand studies the interpretability of models through LLM-based reasoning about executable machine-learning models (for example PMML), validated by direct execution, together with sensitivity to the model and the prompt. In processes, pre-modelled BPMN and case-based CMMN logic can be compared with governed, agent-based workflows. The shared question: at which decision points is autonomy justified, what context is needed, and how can added value and error risk be measured?
+
+For explainability, a technically verifiable model and an explanation that users understand are two different qualities. A plausible explanation can create unwarranted certainty, so we judge an explanation by whether it improves error detection and correct decisions – not merely satisfaction or trust. Comparing no explanation, an expert explanation and a lay explanation can be a psychological experiment in its own right.
+
+## Research questions
+
+::: {.rq-list}
+- How can knowledge graphs, provenance and validation make the behavior of LLMs and agents checkable?
+- Can LLMs reliably interpret executable machine-learning models when their claims are validated by execution?
+- At which decision points is agent autonomy justified, and how are its added value and error risk measured?
+- Do explanations improve error detection and decisions – or only satisfaction and trust?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+Research on explainable machine learning, complex networks and hypergraphs, data-intensive AI methods for clinical and industrial data, optimization and scheduling, and image-based recognition of workflows forms the technical core.
+:::
+
+## Members in this line
+
+{{< include ../_generated/line-trustworthy.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/risk-governance.html">← 4 · Risk & Governance</a>
+<a href="/research/human-centered-industry.html">6 · Human-Centered Industry →</a>
+</nav>
+```

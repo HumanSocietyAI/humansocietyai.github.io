@@ -1,0 +1,16 @@
+---
+title: "Founding workshop on 11 December"
+description: "The network’s founding workshop will be held in hybrid format on Friday, 11 December 2026, 13:00–14:30 CET."
+date: 2026-11-22
+categories: [Events]
+image: ../../assets/img/news-workshop.svg
+image-alt: "Network graphic with the date 11 December"
+---
+
+The founding workshop of the Human- and Society-Centered AI Research Network will be held on **Friday, 11 December 2026, from 13:00 to 14:30 CET** in the **Nagytanácsterem** of the University of Pannonia in Veszprém, with online participation for members.
+
+The workshop opens with short lightning talks in which members introduce their research questions. It is also the occasion to agree on who will host the first joint pilots and to start coordinating doctoral topics with the doctoral schools.
+
+Members receive the online link by e-mail. Researchers interested in joining are welcome to [contact the coordinator](/contact.html).
+
+[All events](/events.html)

@@ -1,0 +1,29 @@
+---
+title: "People"
+subtitle: "Researchers from four faculties and three campuses"
+description: "Members of the Human- and Society-Centered AI Research Network, grouped by research line."
+---
+
+::: {.page-lead}
+The network brings together psychologists, social scientists, philosophers, economists, engineers, computer scientists, mathematicians and educators. Members keep their home faculties and institutes and connect through shared questions, methods and studies.
+:::
+
+```{=html}
+<div class="network-wrap">
+  <svg id="network-graph"></svg>
+  <div class="network-tip" aria-hidden="true"></div>
+  <div class="network-legend"></div>
+</div>
+<p class="network-hint">Each dot is a member, each numbered circle a research line. Hover or focus to highlight connections, click a member to jump to their card, click a research line to open it. The same information is listed below.</p>
+```
+
+{{< include _generated/people-groups.md >}}
+
+::: {.callout-pe}
+Profiles were compiled from public university pages, ORCID, OpenAlex and Google Scholar. Members can request corrections at any time – please [contact the coordinator](/contact.html). New members are welcome: see [Join the network](/join.html).
+:::
+
+```{=html}
+<script src="/assets/vendor/d3.min.js" defer></script>
+<script src="/assets/js/network.js" defer></script>
+```

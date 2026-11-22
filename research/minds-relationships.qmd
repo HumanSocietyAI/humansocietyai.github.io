@@ -1,0 +1,52 @@
+---
+title: "Cognitive Partnership, Creativity and Relationships"
+subtitle: "Research line 1 · Minds & Relationships"
+description: "How working and learning with AI changes thinking, competence, creativity, identity and the way people turn to each other."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 1 of 9</span><p>AI is developing from a personal assistant into a cognitive collaborator, a digital representative and an agent that acts on our behalf. This line asks what that does to human competence, creativity and relationships.</p></div>
+```
+
+## The problem
+
+Working with AI can raise performance and support learning – and it can also weaken critical checking, one’s own initiative and the effort people invest in relationships. Availability, personalization, affirming communication and anthropomorphism all play a part. Within competence we measure three things separately: actual knowledge, perceived competence and task-specific self-efficacy. Someone may achieve more with AI and yet feel the success is less their own; the opposite risk, overconfidence, matters just as much.
+
+The tension between individual productivity and collective homogenization is a particularly promising direction. Ideas suggested by AI can improve individual work while making the works of different people more alike. We therefore measure the novelty, usefulness and mutual distinctness of ideas separately, compare an “own idea first, AI second” sequence with the reverse, and extend the question to longer learning periods and group creativity.
+
+“The digital self” covers several different phenomena: online self-presentation, the digitally extended self, AI-supported interpretation of one’s own life story, and agents acting in our name. The “AI cocoon” is a useful working idea but not yet an established construct; we phrase it as a question – after using AI, do people turn to each other more or less easily? – and study it longitudinally. Simulated societies of LLM agents can illuminate mechanisms, but conclusions about human groups require external validation with real participants.
+
+## Research questions
+
+::: {.rq-list}
+- When does working with AI improve performance and learning, and when does it weaken critical checking, own initiative and relational activity?
+- How do actual knowledge, perceived competence and self-efficacy diverge when people work with AI?
+- Does AI raise individual creativity while narrowing collective diversity – and does the order of own ideas and AI ideas matter?
+- How do personal address, signals of memory and empathic-sounding replies influence feeling understood, self-disclosure and judgments of reliability?
+- After using AI, do people turn to each other more or less easily – and for whom?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+Experimental and organizational psychology at the Faculty of Humanities, human–computer interaction and virtual-reality research at the Faculty of Information Technology, and ongoing work on simulated societies of LLM agents provide the starting points. Studies combine behavioral experiments with diary and longitudinal designs.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H1** The performance effect of AI use that is fitted to the context and to the human task depends on expertise, on how structured the task is and on the possibilities for verification.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-minds.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/index.html">← All research lines</a>
+<a href="/research/organizations-knowledge.html">2 · Organizations & Knowledge →</a>
+</nav>
+```

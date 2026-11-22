@@ -1,0 +1,22 @@
+---
+title: "Events"
+subtitle: "Workshops, forums and research clinics"
+description: "Upcoming events of the Human- and Society-Centered AI Research Network."
+---
+
+## Upcoming
+
+```{=html}
+<div class="event-box" style="max-width:720px">
+  <span class="ev-kicker">Founding workshop</span>
+  <span class="ev-date">11 December 2026</span>
+  <span class="ev-title">Founding workshop of the network</span>
+  <span class="ev-meta">Friday, 13:00–14:30 CET · Nagytanácsterem, University of Pannonia, 10 Egyetem Street, Veszprém · hybrid (online link sent to members)</span>
+  <span class="ev-meta">Lightning talks by members, hosts for the first joint pilots, coordination of doctoral topics.</span>
+  <a href="/news/posts/2026-11-22-founding-workshop.html">Read more →</a>
+</div>
+```
+
+## Recurring formats
+
+The network’s regular formats are described on the [Activities](/activities.html) page. Dates will be listed here once they are set.

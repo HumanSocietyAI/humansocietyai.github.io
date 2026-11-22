@@ -1,0 +1,50 @@
+---
+title: "Building AI Capability in Enterprises and SMEs"
+subtitle: "Research line 9 · Enterprises & SMEs"
+description: "What drives the AI capability of small and medium-sized enterprises – leadership, data and skills, or the trust and competence of employees."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 9 of 9</span><p>In small and medium-sized enterprises, the introduction of AI depends directly on people: on the owner-manager’s decision, on the skills and trust of employees, and on who checks the results in a small organization.</p></div>
+```
+
+## The problem
+
+SMEs show every level of our framework at once: individual competence, collaboration in small teams, organizational learning and the digital divide between enterprises. The AI literacy and deployer obligations of the EU AI Act affect SMEs as well.
+
+The line builds on an AI-maturity survey of SMEs covering five dimensions – strategy and leadership, data and infrastructure, skills and culture, AI applications, governance and ethics – with immediate feedback and analysis linked to company data, and on practical guides that show AI applications such as AI-supported quotation, virtual assistants and the early signalling of liquidity problems.
+
+## Research questions
+
+::: {.rq-list}
+- What drives the development of SMEs’ AI capability – leadership intent, data and skills, or employees’ trust and sense of competence?
+- How does work change in a small enterprise after AI is introduced: which routine tasks disappear, and which new checking and learning demands appear?
+- Does a maturity diagnosis with targeted feedback change practice, and what turns a productivity guide into lasting change?
+- How can AI support generational succession – the transfer of an experienced owner’s tacit knowledge – while trust and roles are also renegotiated?
+- How large is the gap in AI capability between enterprises, where does it arise, and which policy instruments reduce it?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+The Faculty of Business and Economics brings management, knowledge-management and quantitative research; the Faculty of Engineering contributes digital-transformation and maturity-assessment experience; student teams can work on real SME challenges through student research, theses and doctoral pre-studies.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H10** In small and medium-sized enterprises, an AI-maturity diagnosis with targeted feedback leads to lasting change in practice if adoption is also supported by employees’ sense of competence and trust.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-enterprises.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/ai-supported-university.html">← 8 · AI-Supported University</a>
+<a href="/research/index.html">All research lines →</a>
+</nav>
+```

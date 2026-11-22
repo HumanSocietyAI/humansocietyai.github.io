@@ -1,0 +1,42 @@
+---
+title: "Planned studies"
+subtitle: "The first joint pilots of the network"
+description: "Eight planned joint studies of the Human- and Society-Centered AI Research Network."
+---
+
+::: {.page-lead}
+The portfolio grows from studies already under way and from real institutional, industrial and social questions. Studies are selected by their theoretical contribution, the empirical evidence available, ethical feasibility and the possibility of external validation – not by artificial deadlines. In publications we always distinguish completed studies, preliminary results and proposed experiments.
+:::
+
+```{=html}
+<div class="study-grid">
+  <article class="study-card"><span class="status">Planned</span><h3>AI, creativity and relationships</h3>
+    <p>Coordinated measurement of individual creative performance, collective diversity, the sense of authorship and social interaction when people create with AI.</p>
+    <p class="sc-lines">Research lines: <a href="/research/minds-relationships.html">Minds &amp; Relationships</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>Organizational development at the university</h3>
+    <p>An AI-supported knowledge-sharing and silo-reduction intervention, evaluated with mixed methods: network and process data, interviews and surveys, follow-up.</p>
+    <p class="sc-lines">Research lines: <a href="/research/organizations-knowledge.html">Organizations &amp; Knowledge</a> · <a href="/research/ai-supported-university.html">AI-Supported University</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>Persona-based impact assessment</h3>
+    <p>Expert-validated exploration of stakeholder impacts and risks of AI-supported decisions, including the sensitivity of results to the model and the prompt.</p>
+    <p class="sc-lines">Research lines: <a href="/research/society-policy.html">Society &amp; Policy</a> · <a href="/research/risk-governance.html">Risk &amp; Governance</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>Agent and context governance</h3>
+    <p>An auditable expert-support and workflow module grounded in a knowledge graph, with documented provenance and validation of what the agents do.</p>
+    <p class="sc-lines">Research lines: <a href="/research/trustworthy-ai.html">Trustworthy AI</a> · <a href="/research/risk-governance.html">Risk &amp; Governance</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>Human–AI teaming in industry</h3>
+    <p>Operator workload, decision quality, trust and error risk in human–AI teams on a laboratory production line.</p>
+    <p class="sc-lines">Research lines: <a href="/research/human-centered-industry.html">Human-Centered Industry</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>A learning-support AI tutor</h3>
+    <p>Comparison of learning gain, independent knowledge and time spent between a learning-support tutor, an unrestricted assistant and conventional practice in a university course.</p>
+    <p class="sc-lines">Research lines: <a href="/research/learning-education.html">Learning &amp; Education</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>Institutional analytics with people in the loop</h3>
+    <p>Semantic analysis of student course-evaluation texts, and early dropout warning followed by personal outreach – with control-group impact measurement and monitoring of the psychological effects of labelling.</p>
+    <p class="sc-lines">Research lines: <a href="/research/ai-supported-university.html">AI-Supported University</a> · <a href="/research/learning-education.html">Learning &amp; Education</a></p></article>
+  <article class="study-card"><span class="status">Planned</span><h3>AI capability of small and medium-sized enterprises</h3>
+    <p>An AI-maturity panel and productivity interventions at partner enterprises, with before-and-after measurement that includes employees’ experience and workload.</p>
+    <p class="sc-lines">Research lines: <a href="/research/enterprises-smes.html">Enterprises &amp; SMEs</a></p></article>
+</div>
+```
+
+## Publication plan
+
+A joint, internationally targeted concept paper on the integrated mechanism and impact model; methodological papers on persona-based impact assessment, risk-based governance and the measurement of organizational interventions; and empirical case studies. Results will appear on the [Publications](/publications.html) page.

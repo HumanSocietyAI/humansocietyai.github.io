@@ -1,0 +1,51 @@
+---
+title: "Stakeholder Perspectives, Societal Impact and Policy"
+subtitle: "Research line 3 · Society & Policy"
+description: "Who gains and who bears the costs of AI-supported decisions, and how stakeholder perspectives can be made visible before decisions are taken."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 3 of 9</span><p>The same decision or AI-based intervention can affect social groups very differently. This line makes stakeholder perspectives visible before decisions are taken and studies how the benefits and burdens of AI are distributed.</p></div>
+```
+
+## The problem
+
+In persona-based impact assessment, personas curated by experts – and grounded in empirical data where possible – help to explore how an intervention affects different groups. A language model drafts a preliminary persona-level impact assessment, which human experts check, modify and document. Scores, uncertainty and decision triggers are organized into auditable evaluation records.
+
+The research question is not only the accuracy of risk scoring: which stakeholder perspectives are missed, how robust the conclusions are to the choice of model and prompt, how the AI assessment relates to expert consensus, and whether the method improves the decisions of planners. An urban-development case study is the starting point; the approach can be carried over to public services, campus and workplace development, and to student recruitment and support, where the perspectives of prospective students, families and teachers differ widely.
+
+At the level of society we follow digital inequalities and inclusion, access to education and services, social trust, stakeholder participation and contestability, the transformation of professions and employment, and the consequences for public services, regions and cities.
+
+## Research questions
+
+::: {.rq-list}
+- How are the benefits, burdens and opportunities for influence of AI distributed across social groups?
+- Which stakeholder perspectives are missed in AI-supported decisions, and can persona-based assessment surface them?
+- How robust are AI-generated impact assessments to the choice of model and prompt, and how do they compare with expert consensus?
+- Which institutional and policy conditions support equitable access, participation and responsible use?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+Network analysis, multi-criteria decision models and persona-based impact assessment can be integrated for social decision support; sustainability assessment and evidence-based decision support, regional statistics and the philosophy of technology contribute complementary perspectives.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H3** Persona-based risk discovery identifies more stakeholder impacts than a conventional, expert-only workshop – provided that the personas are empirically grounded.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-society.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/organizations-knowledge.html">← 2 · Organizations & Knowledge</a>
+<a href="/research/risk-governance.html">4 · Risk & Governance →</a>
+</nav>
+```

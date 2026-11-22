@@ -1,0 +1,51 @@
+---
+title: "AI and Organizational Change"
+subtitle: "Research line 2 · Organizations & Knowledge"
+description: "When individual AI use becomes shared knowledge, organizational learning and lasting change – and when it deepens silos."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 2 of 9</span><p>When does individual and team use of AI become shared knowledge, organizational learning and lasting change – and when does it deepen the silos between units?</p></div>
+```
+
+## The problem
+
+The effect of introducing AI is mediated jointly by leadership goals, skills, incentives for knowledge sharing, psychological safety, perceived justice and processes. We study psychological safety not only as an outcome but as a possible precondition of learning together: do people dare to make mistakes, admit gaps in their knowledge or voice doubts about AI? This is not the same as general satisfaction or the absence of conflict.
+
+The university itself is a natural field site: a cross-faculty knowledge base, AI-supported tools for managing relationships and tasks, inter-institutional knowledge sharing, reusable skills and joint workshops. We can observe how the density of the collaboration network, boundary-spanning ties, the reuse of shared knowledge items and the number of joint projects change.
+
+The proposed design runs from an initial diagnosis through a jointly designed intervention, process and network measurement, interviews and surveys to follow-up. Pre-intervention trends, alternative explanations and data-protection conditions are documented, and the effects of the AI tool, of clarifying processes and of the joint workshops are separated. Participants’ own explanations can reveal whether a blockage stemmed from missing knowledge, diverging interests, lack of trust or overload.
+
+## Research questions
+
+::: {.rq-list}
+- Under which conditions does individual and group AI use become shared knowledge, organizational learning and lasting change in practice?
+- How do psychological safety and perceived justice shape whether people share knowledge – and their doubts about AI?
+- How do the division of labor, control and accountability shift as AI enters everyday work?
+- Can an AI-supported intervention measurably reduce silos between organizational units?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+The line builds on the Veszprém school of knowledge management founded by Zoltán Gaál, whose current researchers work on the ethics of AI-based HR and organized the 2025 knowledge-management conference “We and AI” at the University of Pannonia; on organizational psychology at the Faculty of Humanities; and on network analysis of organizational data.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H2** AI adoption supported by a shared knowledge base and interoperable workflows can increase knowledge flow between organizational units; the effect can be measured in sociometric and process data.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-organizations.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/minds-relationships.html">← 1 · Minds & Relationships</a>
+<a href="/research/society-policy.html">3 · Society & Policy →</a>
+</nav>
+```

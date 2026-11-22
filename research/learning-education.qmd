@@ -1,0 +1,56 @@
+---
+title: "AI in Education and Learning Support"
+subtitle: "Research line 7 · Learning & Education"
+description: "Designing AI that strengthens learning instead of replacing it, and assessment that stays valid when AI is everywhere."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 7 of 9</span><p>Education shows most sharply that performance and learning are not the same. This line asks how AI can strengthen learning instead of replacing it.</p></div>
+```
+
+## The problem
+
+Unrestricted generative AI can improve performance during practice while reducing the knowledge learners later show on their own; tutors designed according to research-based pedagogical principles, by contrast, can produce larger learning gains. International frameworks distinguish students’ independent learning, joint use by teachers and students, and support for teachers’ work, and describe the AI competences of students and teachers in human-centered, ethical and pedagogical dimensions.
+
+The psychological core of the line is self-regulated learning: goal setting, strategy use, self-monitoring and reflection. An AI tutor can support these – or take them over from the learner. The key question is therefore whether, after support, students plan and check their work more independently. Theory is the starting point; the effect of a tutor has to be shown in our own studies.
+
+The EU AI Act classifies AI systems used for admission, for assessing learning outcomes, for steering learning and for monitoring exams as high-risk, and it prohibits emotion recognition in educational institutions. In our pilots the result can therefore never be an automatic decision about a student.
+
+## Research questions
+
+::: {.rq-list}
+- Under which design principles does AI strengthen learning rather than replace it (learning-support tutors; thinking first, help second; asking instead of explaining)?
+- How do assessment, academic integrity and authorship change, and which forms of assessment remain valid?
+- How can the AI literacy of university teachers and school teachers be developed, and how does it show up in actual teaching practice?
+- How do immersive, VR/AR-based AI assistants support learning, cognitive load and accessibility?
+- How can learning analytics help prevent dropout while people decide on interventions and students do not become automatic scores?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+The Institute of Digital Methodology at the Faculty of Humanities studies AI use in higher education, prompting as a new competence and AI in course development, and in 2026 launched a free, accredited AI course for school teachers. The university’s MSc in Artificial Intelligence started in autumn 2026.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H6** Compared with an unrestricted assistant, a tutor designed on learning-support principles yields smaller gains during practice but more durable, independently demonstrated knowledge.
+:::
+
+::: {.hypothesis}
+**H8** AI help that follows an independent attempt leads to better delayed, tool-free transfer than ready-made answers available from the start.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-education.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/human-centered-industry.html">← 6 · Human-Centered Industry</a>
+<a href="/research/ai-supported-university.html">8 · AI-Supported University →</a>
+</nav>
+```

@@ -1,0 +1,18 @@
+---
+title: "The University of Pannonia launches the Human- and Society-Centered AI Research Network"
+description: "A cross-faculty community of 41 researchers studies how AI changes people, organizations and society – and how to design AI that works for people."
+date: 2026-11-22
+categories: [Network]
+image: ../../assets/img/news-launch.svg
+image-alt: "Network graphic with the word Launch"
+---
+
+The University of Pannonia has launched the **Human- and Society-Centered AI Research Network**, the first multidisciplinary research community of the University’s Network of Research Excellence. Its 41 members come from the Faculties of Business and Economics, Engineering, Humanities and Information Technology, from the campuses in Veszprém, Zalaegerszeg and Nagykanizsa, and from outside the University.
+
+The network asks how artificial intelligence transforms people’s cognition, identity, creativity and relationships, and how it changes collaboration, decision-making and adaptability in groups, organizations and social institutions. The levels are linked by one question: when does AI become help after which people can do more on their own – and when does the performance gain remain tied to the system?
+
+Research is organized into [nine connected lines](/research/index.html), from cognitive partnership and creativity, organizational change and stakeholder impact, through AI risk and governance, trustworthy and explainable AI and human-centered industry, to AI in education, the AI-supported university and the AI capability of small and medium-sized enterprises. All studies share [one framework](/approach.html), so that results from different settings can be compared.
+
+The network works as an open, cross-faculty and self-organizing community. Members keep their home faculties and institutes and connect through shared questions, data and methods, joint publications and pilots. Researchers and doctoral candidates of the University and external researchers are welcome to [join](/join.html).
+
+The founding workshop will take place on [11 December 2026](/news/posts/2026-11-22-founding-workshop.html).

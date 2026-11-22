@@ -1,0 +1,49 @@
+---
+title: "Human-Centered Industry (Industry 5.0)"
+subtitle: "Research line 6 · Human-Centered Industry"
+description: "Operators, human–AI teaming, digital twins and immersive environments as a validation ground for competence, oversight and workload."
+---
+
+```{=html}
+<div class="line-hero"><span class="lh-num">Research line 6 of 9</span><p>Operator 5.0, human–machine collaboration, digital twins, VR/AR and intelligent work environments offer a strong validation ground for studying human competence, oversight and autonomy.</p></div>
+```
+
+## The problem
+
+Manufacturing makes the effects of AI on people measurable: workload, decision quality, trust and error risk in human–AI teams. Immersive and multimodal environments raise the question of how cognitive load, presence and user control mediate their effects.
+
+Industrial and university studies can be linked through the job demands–resources model. AI may reduce routine tasks while adding new demands for checking, learning and availability. Beyond time saved, we therefore also measure work intensity, interruptions, autonomy and recovery; what overall balance of demands results is an empirical question.
+
+## Research questions
+
+::: {.rq-list}
+- How do human–AI teams affect operator workload, decision quality, trust and error risk?
+- How can cognitive load and situation awareness be measured with biosignals during assembly work?
+- How can human digital twins and knowledge graphs support human-centered, collaborative manufacturing?
+- Does AI reduce work demands overall, or shift them towards checking, learning and availability?
+:::
+
+## Foundations at the University of Pannonia
+
+::: {.foundation}
+The Industry 5.0 Laboratory provides a production line, a collaborative robot, indoor positioning, biosignal sensors, VR equipment and a discrete-event digital twin. A doctoral thesis defended in 2026 measured cognitive load and awareness with AI and biosignals in assembly operations, and the Operator 4.0 to 5.0 transition has been reviewed internationally by members of the network.
+:::
+
+## Testable hypotheses
+
+::: {.hypothesis}
+**H4** The effect of interactive, multimodal and immersive AI environments is mediated by cognitive load, presence and user control.
+:::
+
+Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.
+
+## Members in this line
+
+{{< include ../_generated/line-industry.md >}}
+
+```{=html}
+<nav class="line-nav" aria-label="Research lines">
+<a href="/research/trustworthy-ai.html">← 5 · Trustworthy AI</a>
+<a href="/research/learning-education.html">7 · Learning & Education →</a>
+</nav>
+```

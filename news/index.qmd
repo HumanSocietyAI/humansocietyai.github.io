@@ -1,0 +1,15 @@
+---
+title: "News"
+subtitle: "From the Human- and Society-Centered AI Research Network"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [image, date, title, description, categories]
+  image-height: 160px
+  date-format: "D MMMM YYYY"
+  feed: true
+---

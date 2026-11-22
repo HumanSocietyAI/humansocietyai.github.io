@@ -1,0 +1,20 @@
+---
+title: "Activities"
+subtitle: "How the network works together"
+description: "Recurring formats of the Human- and Society-Centered AI Research Network."
+---
+
+::: {.page-lead}
+The network keeps coordination light. Its formats are designed to connect people across faculties around real research questions, with as little administration as possible.
+:::
+
+::: {.principles}
+- **Monthly open research forum.** Ongoing results, methodological problems and publication ideas – periodically with visiting researchers.
+- **Research clinic every two months.** One pilot discussed in depth from psychological, social-science, engineering and data-science perspectives.
+- **Annual doctoral day.** Doctoral candidates working on network topics present their work; the forum and the research clinic are open to them throughout the year.
+- **Joint seminar and studies.** A common seminar, joint integrated studies or proposals, and topics for student research, theses and doctoral work.
+- **Shared knowledge space.** An internal workspace for members and a curated research repository with appropriate licences.
+- **Light record of results.** A record of projects, results and research impact that adds as little administration as possible.
+:::
+
+Dates for the recurring formats will appear on the [Events](/events.html) page.

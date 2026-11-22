@@ -1,0 +1,20 @@
+---
+title: "Publications"
+subtitle: "Results of the network"
+description: "Publications of the Human- and Society-Centered AI Research Network."
+---
+
+::: {.page-lead}
+This page lists publications that result from the work of the network. Entries are added by editorial decision, based on submissions from members.
+:::
+
+```{=html}
+<div class="empty-state">
+  <p><strong>No publications listed yet.</strong></p>
+  <p>The first joint papers of the network are in preparation.</p>
+</div>
+```
+
+## For members
+
+To propose a publication, send the coordinator the DOI (or the full reference and an open-access version) and a sentence on how it relates to the network’s research lines. Only work connected to the network’s themes is listed. Please use the affiliation “Human- and Society-Centered AI Research Network, University of Pannonia” alongside your home unit.

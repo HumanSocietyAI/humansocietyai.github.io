@@ -1,0 +1,40 @@
+---
+title: "Doctoral research"
+subtitle: "A shared layer across the existing doctoral schools"
+description: "How doctoral research connects to the Human- and Society-Centered AI Research Network at the University of Pannonia."
+---
+
+::: {.page-lead}
+The network does not have – and does not need – a doctoral school of its own. Doctoral candidates stay in the University of Pannonia’s five doctoral schools; the network adds a light, shared layer on top of them, a model that also works well at leading international centres.
+:::
+
+## The shared layer
+
+::: {.principles}
+- **A common label.** Topics are announced with a “Human & Society – AI” label, always within the discipline of the hosting doctoral school.
+- **Cross-faculty co-supervision.** Flagship topics have two supervisors from two different faculties or doctoral schools.
+- **A shared methods course.** “Researching human–AI–social systems”, which the schools can recognize in their own curricula.
+- **A doctoral community.** The monthly open research forum and the research clinic are open to doctoral candidates, with an annual doctoral day.
+- **International and industrial co-supervision.** Co-supervisors from abroad, and industrial co-supervisors in the Cooperative Doctoral Programme.
+:::
+
+## Doctoral schools
+
+```{=html}
+<table class="inst-table">
+  <thead><tr><th>Doctoral school</th><th>Typical connections</th></tr></thead>
+  <tbody>
+    <tr><td>Doctoral School of Information Science and Technology</td><td>Trustworthy and explainable AI, LLM agents, learning analytics, human–computer interaction, VR/AR</td></tr>
+    <tr><td>Doctoral School of Business and Management</td><td>Organizational change, knowledge management, AI governance roles, SMEs, the AI-supported university</td></tr>
+    <tr><td>Chemical Engineering and Material Sciences Doctoral School</td><td>Human-centered manufacturing, operator support, soft sensors and operator trust, human digital twins</td></tr>
+    <tr><td>Doctoral School of Chemistry and Environmental Sciences</td><td>Persona-based impact assessment, environmental decision support, sustainability and risk communication</td></tr>
+    <tr><td>Multilingualism Doctoral School</td><td>AI-mediated communication, multilingualism, academic writing and integrity</td></tr>
+  </tbody>
+</table>
+```
+
+The University has no doctoral school in education, psychology or philosophy. Pedagogical and psychological topics can therefore run within the disciplinary frameworks of the schools above, with co-supervision from the Faculty of Humanities, or with joint supervision with other universities.
+
+::: {.callout-pe}
+Concrete doctoral topics will be published here once they have been announced by the doctoral schools. Prospective candidates are welcome to [contact the coordinator](/contact.html) and to visit the [doctoral schools of the University of Pannonia](https://phd.uni-pannon.hu/en).
+:::

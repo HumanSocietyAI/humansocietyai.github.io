@@ -1,0 +1,54 @@
+---
+title: "About the network"
+subtitle: "A cross-faculty research community of the University of Pannonia"
+description: "Who we are, how the Human- and Society-Centered AI Research Network works, and the international models it draws on."
+---
+
+::: {.page-lead}
+The Human- and Society-Centered AI Research Network is the first multidisciplinary research community of the University of Pannonia’s Network of Research Excellence. It connects researchers from the Faculties of Business and Economics, Engineering, Humanities and Information Technology and from the campuses in Veszprém, Zalaegerszeg and Nagykanizsa.
+:::
+
+```{=html}
+<div class="pe-frame"><div class="pe-quote-box">How does artificial intelligence transform people’s cognition, identity, creativity and relationships – and the collaboration, decision-making and adaptability of groups, organizations and institutions? And how can AI systems be designed and checked so that their effects at these levels are measurably favorable?</div></div>
+```
+
+## Why now
+
+The most rigorous recent studies show that the effect of AI on people is not automatically positive: design, context and expertise decide its sign. In field experiments, AI assistance raised productivity most for less experienced workers, and helped professionals from different backgrounds reach similar solutions; unrestricted access to a chatbot improved students’ practice performance but harmed their later independent performance, while a tutor designed for learning largely removed the harm; and greater trust in generative AI went together with less critical thinking among knowledge workers. Organizations adopt AI faster than these effects are understood.
+
+Regulation raises the stakes. The EU AI Act treats AI systems used in education and employment as high-risk and prohibits emotion recognition in schools and workplaces; ISO/IEC 42001 defines a certifiable AI management system. Universities are expected to show measurable preparedness – in their own operation as well as in research. The University’s institutional development plan for 2026–2030 names the human-centered AI university as a guiding principle; the network is its research leg, producing knowledge for the University’s own AI deployment and sharing it with the region.
+
+## How the network works
+
+The network is open, cross-faculty and self-organizing. Members keep their institutional and project affiliations and connect around shared research questions, data and methodological infrastructure, publications and pilots. The Network of Research Excellence provides visibility, a meeting point and light coordination; no separate organizational unit, new hierarchy or large dedicated budget is needed to start.
+
+A coordinator and voluntary topic leads support the collaboration. Contributions and authorship are agreed in advance according to transparent principles. The network’s formats – a monthly open research forum, a research clinic every two months and an annual doctoral day – are described under [Activities](/activities.html). Doctoral research runs in the existing doctoral schools, with a [shared layer](/doctoral.html) on top.
+
+What counts as success follows from the nature of research rather than from an administrative calendar: new multidisciplinary questions, results that genuinely connect researchers from several faculties, independently validated methods, citable publications, open research artifacts and documented institutional or social impact. Interdisciplinary work is known to be more visible but often less productive in the short term; recognizing it in developmental, CoARA-aligned research assessment is a condition for the network’s sustainability.
+
+## International context
+
+Before designing the network, we looked at how leading human-centered AI initiatives are organized, how they involve doctoral candidates and how they are funded. Several lessons shaped our model.
+
+```{=html}
+<table class="inst-table">
+  <thead><tr><th>Initiative</th><th>What we take from it</th></tr></thead>
+  <tbody>
+    <tr><td><a href="https://hai.stanford.edu/about" rel="noopener">Stanford Institute for Human-Centered AI</a></td><td>Small, interdisciplinary seed support with an ethics and society review before funding; no separate PhD programme.</td></tr>
+    <tr><td><a href="https://www.surrey.ac.uk/artificial-intelligence/about" rel="noopener">Surrey Institute for People-Centred AI</a></td><td>“First a network, then an institute”: the institute grew out of a university-wide network.</td></tr>
+    <tr><td><a href="https://tudelft.nl/en/ai/tu-delft-ai-labs" rel="noopener">TU Delft AI Labs</a></td><td>Cross-faculty labs led jointly by researchers from two faculties; doctoral candidates co-supervised across disciplines.</td></tr>
+    <tr><td><a href="https://www.uu.nl/en/research/human-centered-artificial-intelligence/special-interest-groups" rel="noopener">Utrecht University – Human-centered AI</a></td><td>A virtual focus area with a simple rule: every group involves several faculties.</td></tr>
+    <tr><td><a href="https://www.umu.se/en/research/features-and-news/wasp-hs" rel="noopener">WASP-HS</a></td><td>A shared graduate-school layer instead of a new doctoral school.</td></tr>
+    <tr><td><a href="https://www.utwente.nl/en/eemcs/hmi/hmi-projects-folder/hmi-project-hybrid-intelligence/" rel="noopener">Hybrid Intelligence Centre</a></td><td>A capability-based research framework and a conference series of its own (HHAI).</td></tr>
+    <tr><td><a href="https://www.abdn.ac.uk/research/interdisciplinary/data-and-artificial-intelligence/human-centred-ai-network-" rel="noopener">University of Aberdeen – Interdisciplinary Human-Centred AI Research Network</a></td><td>A minimal starting form: a light network with co-leads, lightning talks and events aligned with funding calls.</td></tr>
+    <tr><td><a href="https://ellis.eu/research/programs/human-centric-machine-learning" rel="noopener">ELLIS</a></td><td>Joining an existing European network is cheaper than building a parallel structure; the degree stays at home, with a co-supervisor abroad.</td></tr>
+    <tr><td><a href="https://www.mpib-berlin.mpg.de/mum" rel="noopener">MPIB Center for Humans and Machines</a></td><td>Large-sample online behavioral experiments on how people and machines interact.</td></tr>
+  </tbody>
+</table>
+```
+
+The common pattern fits our own logic: successful initiatives are mostly networks across existing faculties rather than new faculties; they grow step by step and become institutes only after proven results; a few binding rules – at least two faculties, two supervisors – secure interdisciplinarity; doctoral candidates remain in existing schools with a shared layer above them; internal funding is small and builds the capacity to win external grants; and a shared identity comes from visible joint products and a community of young researchers.
+
+## Name and affiliation
+
+The network’s name is **Human- and Society-Centered AI Research Network**, always used together with the University: “Human- and Society-Centered AI Research Network, University of Pannonia”. “Network” expresses the cross-faculty way of working without a separate organizational unit.

@@ -1,0 +1,72 @@
+---
+title: "Approach"
+subtitle: "One framework for studies from the individual to society"
+description: "The shared causal logic, the four levels of analysis and the common measurement principles of the network."
+---
+
+::: {.page-lead}
+Human-centered AI emphasizes user goals, human control, usability, reliability and values. Society-centered AI extends this view to relationships, communities, organizations, institutions and policy. We treat the two as levels that build on each other: an individual benefit is not automatically a collective one.
+:::
+
+Our integrative unit of analysis is the **human–AI–social system**. AI outputs can redistribute attention, knowledge, responsibility, organizational roles, influence and risks – and they feed back into which systems are developed and deployed in the next cycle. Within this unit we keep three things apart: the operational autonomy of the AI, the intentionality people perceive in it, and human responsibility. How attributing agency to AI changes trust and the attribution of responsibility is itself a research question.
+
+## A shared causal logic
+
+The studies of the network are organized around five connected, empirically testable elements. Select an element to read about it.
+
+```{=html}
+<div class="diagram">
+  <div id="diagram-causal"></div>
+  <div class="diagram-panel" id="panel-causal" aria-live="polite"></div>
+  <p class="diagram-hint">Use the mouse, or Tab and the arrow keys, then Enter.</p>
+</div>
+```
+
+The same application can increase individual productivity while homogenizing collective thinking; it can support independent decisions while creating over-reliance; it can ease the flow of knowledge in an organization while threatening professional identity. Uncovering and measuring these mechanisms, and drawing their design consequences, is the central task of the programme.
+
+## Four connected levels
+
+Mediating mechanisms belong to different levels of analysis. Cognitive load is typically measured at the person–task level; psychological safety can be a group characteristic if the conditions for aggregation hold; trust can be directed at the AI, at leadership or at colleagues. For every pilot we therefore fix in advance whether a concept is a precondition, mediator, moderator or outcome.
+
+```{=html}
+<div class="diagram">
+  <div id="diagram-levels"></div>
+  <div class="diagram-panel" id="panel-levels" aria-live="polite"></div>
+  <p class="diagram-hint">Select a level – from the individual at the centre to society at the edge.</p>
+</div>
+```
+
+## Human agency as the common thread
+
+The levels are connected by one question: **preserving human agency**. When does AI become help after which people can do more on their own, and when does the performance gain stay tied to the system? Self-determination theory, with its three basic psychological needs – autonomy, competence and relatedness – serves as a linking framework: we ask whether the use of AI supports these needs, and under which designs it frustrates them.
+
+```{=html}
+<ul class="outcome-trio">
+  <li><strong>Supported performance</strong>measured with AI</li>
+  <li><strong>Durable competence</strong>measured later, without AI, including transfer</li>
+  <li><strong>Independent initiative</strong>what people start, check and decide themselves</li>
+</ul>
+```
+
+## Shared measurement principles
+
+::: {.principles}
+- **Actual and perceived apart.** Actual knowledge, perceived competence and self-efficacy – and trust and actual reliance – are measured separately.
+- **Self-report and behavior.** Alongside self-reports we collect behavioral indicators: acceptance, checking, error detection, help-seeking.
+- **Supported and independent performance.** Performance is measured with AI and, with a delay, without it, to capture durable competence and transfer.
+- **Level of analysis.** We fix in advance whether a variable is individual, group or organizational, and when it may be aggregated.
+- **The role of a concept.** For each pilot we record whether a variable is a precondition, mediator, moderator or outcome.
+- **Conceptual caution.** Working concepts (such as the “AI cocoon”) are not treated as established constructs, and measuring a new concept is not replaced by renaming an existing scale.
+:::
+
+## Methods
+
+The University of Pannonia has internationally strong methodological foundations: complex networks and hypergraphs; possibilistic and fuzzy handling of uncertainty that distinguishes conflict from ignorance at the point of decision; simulation of LLM agents and agent societies; explainable machine learning; discrete-event simulation and digital twins. Because many of our questions are psychological, these are complemented by behavioral experiments, diary and longitudinal studies, the critical incident technique, qualitative interviews and multilevel analysis – not as a later check on technological results, but from the definition of the problem and the testing of alternative explanations onwards.
+
+## Responsible research
+
+Studies with data on students, employees or other people require a clarified legal basis, institutional approval, research-ethics clearance, access rules and data minimization in advance. No automatic personnel evaluation or ranking may be derived from the operation of the AI systems we study. The EU’s approach to trustworthy, human-centric AI and the risk-based logic of the AI Act provide the normative reference points; hypotheses come with controls, outcomes fixed in advance, sensitivity analyses and the reporting of negative results.
+
+```{=html}
+<script src="/assets/js/approach.js" defer></script>
+```
