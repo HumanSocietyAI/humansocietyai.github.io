@@ -7,13 +7,14 @@ project:
   resources:
     - assets/
     - .nojekyll
+    - CNAME
 
 lang: en
 
 website:
   title: "Human- and Society-Centered AI Research Network"
   description: "A cross-faculty research network of the University of Pannonia studying how AI changes people, organizations and society – and how to design AI that works for people."
-  site-url: "https://humansocietyai.github.io"
+  site-url: "https://humansocietyai.uni-pannon.hu"
   repo-url: "https://github.com/HumanSocietyAI/humansocietyai.github.io"
   favicon: assets/img/favicon.svg
   open-graph:

@@ -12,6 +12,11 @@ fi
 
 quarto render
 touch _site/.nojekyll
+# Custom domain: GitHub Pages needs CNAME in the published branch, otherwise the domain stops working.
+if [ ! -s _site/CNAME ]; then
+  echo "_site/CNAME is missing – refusing to publish (the custom domain would be lost)." >&2
+  exit 1
+fi
 
 remote=$(git remote get-url origin)
 msg="Publish site from source $(git rev-parse --short HEAD)"

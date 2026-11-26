@@ -1,6 +1,6 @@
 # Human- and Society-Centered AI Research Network – website
 
-Source of **https://humansocietyai.github.io/**, the website of the Human- and Society-Centered AI Research Network of the University of Pannonia.
+Source of **https://humansocietyai.uni-pannon.hu/** (also reachable as humansocietyai.github.io, which redirects there), the website of the Human- and Society-Centered AI Research Network of the University of Pannonia.
 
 The site is a [Quarto](https://quarto.org) website. Its look follows the web design of the University of Pannonia (uni-pannon.hu): Raleway, IBM Plex Serif and Open Sans (self-hosted, no Google Fonts requests), the dark-blue top bar, the translucent teal header, the teal title highlight, wave dividers and offset blue frames. No cookies and no tracking.
 
@@ -11,7 +11,7 @@ The site is a [Quarto](https://quarto.org) website. Its look follows the web des
 | `source` | Everything needed to build the site: Quarto pages, data, styles, scripts |
 | `main`   | The rendered website only – GitHub Pages serves this branch as it is |
 
-Never edit `main` by hand; it is overwritten on every publication.
+Never edit `main` by hand; it is overwritten on every publication. The custom domain is set by the `CNAME` file in the `source` root, which is copied into the published site – do not delete it.
 
 ## Repository layout (`source` branch)
 
