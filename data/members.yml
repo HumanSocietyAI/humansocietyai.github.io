@@ -14,7 +14,7 @@
 #   bio         about 40 words, drafted from public sources; members may request corrections
 #
 # Sources: university staff pages, ORCID public records, OpenAlex, Google Scholar profiles
-# (checked November 2026). Corrections: abonyi.janos (at) mk.uni-pannon.hu
+# (checked November 2026). Corrections: rektor (at) rect.uni-pannon.hu
 
 - id: janos-abonyi
   given: János
@@ -25,14 +25,13 @@
   unit: Research Centre for Biochemical, Environmental and Chemical Engineering
   department: Department of Process Engineering
   campus: Veszprém
-  email: {user: abonyi.janos, domain: mk.uni-pannon.hu}
+  email: {user: rektor, domain: rect.uni-pannon.hu}
   orcid: 0000-0001-8593-1493
   scholar: u1uw8A8AAAAJ
   openalex: A5063684561
   website: https://www.abonyilab.com/
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/abonyi-janos.html
   photo: /assets/img/people/janos-abonyi.jpg
-  photo_source: "https://uni-pannon.hu/images/2024/02/IMG_5433.jpg"
   lines: [trustworthy, governance, society]
   bio: "Works on explainable and verifiable machine learning, network and hypergraph science, and human-centered AI in organizational and industrial systems. Coordinates the network and links its work on persona-based impact assessment, AI risk analysis and agent-based methods."
 

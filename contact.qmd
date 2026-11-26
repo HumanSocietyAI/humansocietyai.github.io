@@ -13,7 +13,7 @@ University of Pannonia\
 10 Egyetem Street, H-8200 Veszprém, Hungary
 
 ```{=html}
-<p><a class="btn-pe js-mail show-address" href="#" data-u="sonaj.iynoba" data-d="uh.nonnap-inu.km">E-mail address shown when JavaScript is enabled</a></p>
+<p><a class="btn-pe js-mail show-address" href="#" data-u="rotker" data-d="uh.nonnap-inu.tcer">E-mail address shown when JavaScript is enabled</a></p>
 ```
 
 For membership, see [Join the network](/join.html). Members can request corrections to their profiles through the same address.
