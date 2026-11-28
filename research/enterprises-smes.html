@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.11.9">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="description" content="What drives the AI capability of small and medium-sized enterprises – leadership, data and skills, or the trust and competence of employees.">
+
+<title>Building AI Capability in Enterprises and SMEs – Human- and Society-Centered AI Research Network</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+.display.math{display: block; text-align: center; margin: 0.5rem auto;}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/scrollable-regions/scrollable-regions.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-63b5708e65d6cd79cd7618c58d0c21e7.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-543731f0a3560e6d8217c1293f0b1056.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../assets/css/fonts.css">
+<meta property="og:title" content="Building AI Capability in Enterprises and SMEs – Human- and Society-Centered AI Research Network">
+<meta property="og:description" content="What drives the AI capability of small and medium-sized enterprises – leadership, data and skills, or the trust and competence of employees.">
+<meta property="og:image" content="https://humansocietyai.uni-pannon.hu/assets/img/og-image.png">
+<meta property="og:site_name" content="Human- and Society-Centered AI Research Network">
+<meta property="og:image:height" content="630">
+<meta property="og:image:width" content="1200">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><a id="quarto-skip-link" class="visually-hidden-focusable" href="#quarto-document-content">Skip to main content</a>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark" aria-label="Site">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../assets/logo/pe-logo-horizontal-white.svg" alt="University of Pannonia" class="navbar-logo light-content">
+    <img src="../assets/logo/pe-logo-horizontal-white.svg" alt="University of Pannonia" class="navbar-logo dark-content">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">Human- and Society-Centered AI Research Network</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="../research/index.html">
+ <span class="dropdown-text">Overview</span></a>
+  </li>  
+        <li><hr class="dropdown-divider"></li>
+        <li>
+    <a class="dropdown-item" href="../research/minds-relationships.html">
+ <span class="dropdown-text">1 · Minds &amp; Relationships</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/organizations-knowledge.html">
+ <span class="dropdown-text">2 · Organizations &amp; Knowledge</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/society-policy.html">
+ <span class="dropdown-text">3 · Society &amp; Policy</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/risk-governance.html">
+ <span class="dropdown-text">4 · Risk &amp; Governance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/trustworthy-ai.html">
+ <span class="dropdown-text">5 · Trustworthy AI</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/human-centered-industry.html">
+ <span class="dropdown-text">6 · Human-Centered Industry</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/learning-education.html">
+ <span class="dropdown-text">7 · Learning &amp; Education</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/ai-supported-university.html">
+ <span class="dropdown-text">8 · AI-Supported University</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../research/enterprises-smes.html">
+ <span class="dropdown-text">9 · Enterprises &amp; SMEs</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../approach.html"> 
+<span class="menu-text">Approach</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../people.html"> 
+<span class="menu-text">Members</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-studies" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Studies</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-studies">    
+        <li>
+    <a class="dropdown-item" href="../planned-studies.html">
+ <span class="dropdown-text">Planned studies</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../doctoral.html">
+ <span class="dropdown-text">Doctoral research</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../publications.html">
+ <span class="dropdown-text">Publications</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-news--events" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">News &amp; Events</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-news--events">    
+        <li>
+    <a class="dropdown-item" href="../news/index.html">
+ <span class="dropdown-text">News</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../events.html">
+ <span class="dropdown-text">Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../activities.html">
+ <span class="dropdown-text">Activities</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+            <div id="quarto-search" class="" title="Search"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content" tabindex="-1">
+<div class="pe-topbar" role="navigation" aria-label="University and quick links">
+  <div class="inner">
+    <div class="tb-left">
+      <a href="https://international.uni-pannon.hu/" rel="noopener"><span>University of Pannonia</span></a>
+    </div>
+    <div class="tb-right">
+      <a class="tb-btn tb-join" href="../join.html">Join</a>
+      <a class="tb-btn" href="../contact.html">Contact</a>
+      <span class="tb-search" id="tb-search" aria-label="Search"></span>
+      <a class="tb-icon" href="https://github.com/HumanSocietyAI/humansocietyai.github.io" rel="noopener" aria-label="Source on GitHub" title="Source on GitHub">
+        <svg viewbox="0 0 16 16" aria-hidden="true"><path d="M8 0C3.58 0 0 3.58 0 8a8 8 0 0 0 5.47 7.59c.4.07.55-.17.55-.38v-1.33c-2.23.48-2.7-1.07-2.7-1.07-.36-.92-.89-1.17-.89-1.17-.73-.5.06-.49.06-.49.8.06 1.23.83 1.23.83.72 1.22 1.87.87 2.33.66.07-.52.28-.87.5-1.07-1.78-.2-3.65-.89-3.65-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82A7.6 7.6 0 0 1 8 3.86c.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48v2.2c0 .21.15.46.55.38A8 8 0 0 0 16 8c0-4.42-3.58-8-8-8Z"></path></svg>
+      </a>
+    </div>
+  </div>
+</div>
+<script>(function(){var h=document.getElementById("quarto-header"),t=document.querySelector(".pe-topbar");if(h&&t){h.insertBefore(t,h.firstChild);}})();</script>
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Building AI Capability in Enterprises and SMEs</h1>
+<p class="subtitle lead">Research line 9 · Enterprises &amp; SMEs</p>
+</div>
+
+<div>
+  <div class="description">
+    What drives the AI capability of small and medium-sized enterprises – leadership, data and skills, or the trust and competence of employees.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="line-hero"><span class="lh-num">Research line 9 of 9</span><p>In small and medium-sized enterprises, the introduction of AI depends directly on people: on the owner-manager’s decision, on the skills and trust of employees, and on who checks the results in a small organization.</p></div>
+<section id="the-problem" class="level2">
+<h2 data-anchor-id="the-problem">The problem</h2>
+<p>SMEs show every level of our framework at once: individual competence, collaboration in small teams, organizational learning and the digital divide between enterprises. The AI literacy and deployer obligations of the EU AI Act affect SMEs as well.</p>
+<p>The line builds on an AI-maturity survey of SMEs covering five dimensions – strategy and leadership, data and infrastructure, skills and culture, AI applications, governance and ethics – with immediate feedback and analysis linked to company data, and on practical guides that show AI applications such as AI-supported quotation, virtual assistants and the early signalling of liquidity problems.</p>
+</section>
+<section id="research-questions" class="level2">
+<h2 data-anchor-id="research-questions">Research questions</h2>
+<div class="rq-list">
+<ul>
+<li>What drives the development of SMEs’ AI capability – leadership intent, data and skills, or employees’ trust and sense of competence?</li>
+<li>How does work change in a small enterprise after AI is introduced: which routine tasks disappear, and which new checking and learning demands appear?</li>
+<li>Does a maturity diagnosis with targeted feedback change practice, and what turns a productivity guide into lasting change?</li>
+<li>How can AI support generational succession – the transfer of an experienced owner’s tacit knowledge – while trust and roles are also renegotiated?</li>
+<li>How large is the gap in AI capability between enterprises, where does it arise, and which policy instruments reduce it?</li>
+</ul>
+</div>
+</section>
+<section id="foundations-at-the-university-of-pannonia" class="level2">
+<h2 data-anchor-id="foundations-at-the-university-of-pannonia">Foundations at the University of Pannonia</h2>
+<div class="foundation">
+<p>The Faculty of Business and Economics brings management, knowledge-management and quantitative research; the Faculty of Engineering contributes digital-transformation and maturity-assessment experience; student teams can work on real SME challenges through student research, theses and doctoral pre-studies.</p>
+</div>
+</section>
+<section id="testable-hypotheses" class="level2">
+<h2 data-anchor-id="testable-hypotheses">Testable hypotheses</h2>
+<div class="hypothesis">
+<p><strong>H10</strong> In small and medium-sized enterprises, an AI-maturity diagnosis with targeted feedback leads to lasting change in practice if adoption is also supported by employees’ sense of competence and trust.</p>
+</div>
+<p>Every hypothesis calls for an appropriate control, outcomes fixed in advance, sensitivity analysis and the reporting of negative results.</p>
+</section>
+<section id="members-in-this-line" class="level2">
+<h2 data-anchor-id="members-in-this-line">Members in this line</h2>
+<div class="member-grid"><article class="member-card" data-member="janos-abonyi" data-faculty="Engineering"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">JA</span><img src="../assets/img/people/janos-abonyi.jpg" alt="Portrait of János Abonyi" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">János Abonyi</h3><p class="mc-pos">Professor <span class="mc-role">Coordinator</span></p><p class="mc-unit">Department of Process Engineering · Research Centre for Biochemical, Environmental and Chemical Engineering · Faculty of Engineering</p><p class="mc-bio">Works on explainable and verifiable machine learning, network and hypergraph science, and human-centered AI in organizational and industrial systems. Coordinates the network and links its work on persona-based impact assessment, AI risk analysis and agent-based methods.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip" href="../research/trustworthy-ai.html">Trustworthy AI</a></li><li><a class="mc-chip" href="../research/minds-relationships.html">Minds &amp; Relationships</a></li><li><a class="mc-chip" href="../research/organizations-knowledge.html">Organizations &amp; Knowledge</a></li><li><a class="mc-chip" href="../research/society-policy.html">Society &amp; Policy</a></li><li><a class="mc-chip" href="../research/risk-governance.html">Risk &amp; Governance</a></li><li><a class="mc-chip" href="../research/human-centered-industry.html">Human-Centered Industry</a></li><li><a class="mc-chip" href="../research/learning-education.html">Learning &amp; Education</a></li><li><a class="mc-chip" href="../research/ai-supported-university.html">AI-Supported University</a></li><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="rotker" data-d="uh.nonnap-inu.tcer" aria-label="Email János Abonyi">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0001-8593-1493" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=u1uw8A8AAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5063684561" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.abonyilab.com/" rel="noopener">Website</a></li><li><a class="mc-link" href="https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/abonyi-janos.html" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="beata-bajzek" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">BB</span><img src="../assets/img/people/beata-bajzek.jpg" alt="Portrait of Beáta Bajzek" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Beáta Bajzek</h3><p class="mc-pos">Associate Professor, Head of Department</p><p class="mc-unit">Department of Innovation Management · Institute of Management · Faculty of Business and Economics</p><p class="mc-bio">Works on regional and tourism development, place marketing and social innovation, including expert perspectives on the societal impact of digital transformation and science and technology parks as complex systems.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip" href="../research/society-policy.html">Society &amp; Policy</a></li><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="ataeb.kezjab" data-d="uh.nonnap-inu.ktg" aria-label="Email Beáta Bajzek">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0001-6707-9081" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=Xrr_ePEAAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5099133344" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/fehervolgyibeata/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="nikolett-bosnyak-simon" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">NB</span><img src="../assets/img/people/nikolett-bosnyak-simon.jpg" alt="Portrait of Nikolett Bosnyák-Simon" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Nikolett Bosnyák-Simon</h3><p class="mc-pos">Assistant Professor</p><p class="mc-unit">Department of Accounting and Finance · Institute of Business Studies · Faculty of Business and Economics</p><p class="mc-bio">Works in accounting and finance, with research on corporate social responsibility reporting and entrepreneurship; contributes an economics and business perspective to the network.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="ttelokin.nomis" data-d="uh.nonnap-inu.ktg" aria-label="Email Nikolett Bosnyák-Simon">Email</a></li><li><a class="mc-link" href="https://orcid.org/0009-0001-8927-7828" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5040747485" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/simonnikolett/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="timea-czvetko" data-faculty="Engineering"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">TC</span><img src="../assets/img/people/timea-czvetko.jpg" alt="Portrait of Tímea Czvetkó" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Tímea Czvetkó</h3><p class="mc-pos">Junior Research Fellow</p><p class="mc-unit">Department of Process Engineering · Research Centre for Biochemical, Environmental and Chemical Engineering · Faculty of Engineering</p><p class="mc-bio">Works on Industry 4.0 readiness and digital transformation, and leads work on the AI-maturity survey of small and medium-sized enterprises run jointly with the National Association of Entrepreneurs and Employers (VOSZ).</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li><li><a class="mc-chip" href="../research/human-centered-industry.html">Human-Centered Industry</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="aemit.oktevzc" data-d="uh.nonnap-inu.km" aria-label="Email Tímea Czvetkó">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0002-3745-6752" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=U6dQryUAAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5062173726" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/czvetko-timea.html" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="zoltan-andras-daniel" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">ZD</span><img src="../assets/img/people/zoltan-andras-daniel.jpg" alt="Portrait of Zoltán András Dániel" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Zoltán András Dániel</h3><p class="mc-pos">Associate Professor</p><p class="mc-unit">Department of Business Economics · Institute of Economics · Faculty of Business and Economics</p><p class="mc-bio">Works in business economics on sustainability and ESG investment, and on AI anthropomorphism – how human-like AI shapes users’ trust and their vulnerability to manipulation.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip" href="../research/minds-relationships.html">Minds &amp; Relationships</a></li><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="natloz.leinad" data-d="uh.nonnap-inu.ktg" aria-label="Email Zoltán András Dániel">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0001-5347-4785" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=Qt6YPhwAAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5018914933" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/danielzoltan/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="helga-feher" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">HF</span><img src="../assets/img/people/helga-feher.jpg" alt="Portrait of Helga Fehér" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Helga Fehér</h3><p class="mc-pos">Associate Professor, Head of Department, Vice-Dean for Academic Affairs</p><p class="mc-unit">Department of Accounting and Finance · Institute of Business Studies · Faculty of Business and Economics</p><p class="mc-bio">Works in accounting and accounting control; within the network she contributes to the strand on AI-supported auditing.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li><li><a class="mc-chip" href="../research/risk-governance.html">Risk &amp; Governance</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="agleh.rehef" data-d="uh.nonnap-inu.ktg" aria-label="Email Helga Fehér">Email</a></li><li><a class="mc-link" href="https://orcid.org/0009-0003-9160-0713" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5005782318" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/feherhelga/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="csaba-hegedus" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">CH</span><img src="../assets/img/people/csaba-hegedus.jpg" alt="Portrait of Csaba Hegedűs" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Csaba Hegedűs</h3><p class="mc-pos">Associate Professor, Head of Department</p><p class="mc-unit">Department of Supply Chain Management · Institute of Management · Faculty of Business and Economics</p><p class="mc-bio">Works on supply chain management, statistical quality control and digital transformation, including the division of labor between planners and LLM agents in materials planning.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li><li><a class="mc-chip" href="../research/human-centered-industry.html">Human-Centered Industry</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="abasc.sudegeh" data-d="uh.nonnap-inu.ktg" aria-label="Email Csaba Hegedűs">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0001-9556-2927" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=p7bGxI8AAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5063261640" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/hegeduscsaba/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="nora-hegedusne-baranyai" data-faculty="Nagykanizsa Centre"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">NH</span><img src="../assets/img/people/nora-hegedusne-baranyai.jpg" alt="Portrait of Nóra Hegedűsné Baranyai" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Nóra Hegedűsné Baranyai</h3><p class="mc-pos">Associate Professor, Research Group Leader</p><p class="mc-unit">Soós Ernő Research and Development Centre · University Centre for Circular Economy, Nagykanizsa</p><p class="mc-bio">Works on applied statistics and regional analysis, with research on renewable energy, photovoltaic systems, energy storage and the economics of electric mobility.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip" href="../research/society-policy.html">Society &amp; Policy</a></li><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="aron.iaynarab" data-d="uh.nonnap-inu.nep" aria-label="Email Nóra Hegedűsné Baranyai">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0003-2901-4011" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5102920109" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://pen.uni-pannon.hu/munkatarsak-soos-erno-kutato-fejleszto-kozpont/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="maria-kisgyorgy-pal" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">MK</span><img src="../assets/img/people/maria-kisgyorgy-pal.jpg" alt="Portrait of Mária Kisgyörgy-Pál" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Mária Kisgyörgy-Pál</h3><p class="mc-pos">Assistant Professor</p><p class="mc-unit">Department of Accounting and Finance · Institute of Business Studies · Faculty of Business and Economics</p><p class="mc-bio">Works on quantitative methods for project planning and project management, and on the use of AI in accounting valuation.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="airam.lap-ygroygsik" data-d="uh.nonnap-inu.ktg" aria-label="Email Mária Kisgyörgy-Pál">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0003-3387-7370" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5025146432" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/kisgyorgy-pal-maria/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="dorottya-edina-kozma" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">DK</span><img src="../assets/img/people/dorottya-edina-kozma.jpg" alt="Portrait of Dorottya Edina Kozma" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Dorottya Edina Kozma</h3><p class="mc-pos">Associate Professor</p><p class="mc-unit">Department of Accounting and Finance · Institute of Business Studies · Faculty of Business and Economics</p><p class="mc-bio">Works in accounting and finance, with research on sustainability in business and on the corporate use of AI.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li><li><a class="mc-chip" href="../research/risk-governance.html">Risk &amp; Governance</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="anide.ayttorod.amzok" data-d="uh.nonnap-inu.ktg" aria-label="Email Dorottya Edina Kozma">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0002-4948-8815" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=h-ZsogoAAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5081013616" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/kozmadorottya/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="nora-obermayer" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">NO</span><img src="../assets/img/people/nora-obermayer.jpg" alt="Portrait of Nóra Obermayer" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Nóra Obermayer</h3><p class="mc-pos">Professor, Head of Department</p><p class="mc-unit">Department of Management · Institute of Management · Faculty of Business and Economics</p><p class="mc-bio">Works on knowledge management, organizational learning and AI adoption, including organizational silos and the competencies organizations need to govern AI.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip" href="../research/organizations-knowledge.html">Organizations &amp; Knowledge</a></li><li><a class="mc-chip" href="../research/human-centered-industry.html">Human-Centered Industry</a></li><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="aron.reyamrebo" data-d="uh.nonnap-inu.ktg" aria-label="Email Nóra Obermayer">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0001-5036-314X" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://scholar.google.com/citations?user=VrKSfRcAAAAJ" rel="noopener">Google Scholar</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5046151700" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/obermayernora/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="julia-tobak" data-faculty="Business &amp; Economics"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">JT</span><img src="../assets/img/people/julia-tobak.jpg" alt="Portrait of Júlia Tobak" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">Júlia Tobak</h3><p class="mc-pos">Research Fellow</p><p class="mc-unit">Department of Innovation Management · Institute of Management · Faculty of Business and Economics</p><p class="mc-bio">Works on family businesses, enterprise development and innovation management.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="ailuj.kabot" data-d="uh.nonnap-inu.ktg" aria-label="Email Júlia Tobak">Email</a></li><li><a class="mc-link" href="https://orcid.org/0009-0008-8570-0618" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5115442687" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://www.gtk.uni-pannon.hu/hu/drtobakjulia/" rel="noopener">University page</a></li></ul></div></article><article class="member-card" data-member="andras-eles" data-faculty="Information Technology"><div class="mc-photo"><span class="mc-mono" aria-hidden="true">AÉ</span><img src="../assets/img/people/andras-eles.jpg" alt="Portrait of András Éles" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.remove()"></div><div class="mc-body"><h3 class="mc-name">András Éles</h3><p class="mc-pos">Assistant Professor</p><p class="mc-unit">Department of Computer Science and Systems Technology · Faculty of Information Technology</p><p class="mc-bio">Works in operations research and mathematical programming, with applications in supply chains, integrated energy systems and process optimization.</p><ul class="mc-chips" aria-label="Research lines"><li><a class="mc-chip" href="../research/human-centered-industry.html">Human-Centered Industry</a></li><li><a class="mc-chip is-current" href="../research/enterprises-smes.html">Enterprises &amp; SMEs</a></li></ul><ul class="mc-links"><li><a class="js-mail mc-link" href="#" data-u="sardna.sele" data-d="uh.nonnap-inu.kim" aria-label="Email András Éles">Email</a></li><li><a class="mc-link" href="https://orcid.org/0000-0002-5000-3395" rel="noopener">ORCID</a></li><li><a class="mc-link" href="https://openalex.org/authors/A5008791127" rel="noopener">OpenAlex</a></li><li><a class="mc-link" href="https://dcs.uni-pannon.hu/munkatarsaink/oktatok-kutatok/eles-andras" rel="noopener">University page</a></li></ul></div></article></div>
+<nav class="line-nav" aria-label="Research lines">
+<a href="../research/ai-supported-university.html">← 8 · AI-Supported University</a>
+<a href="../research/index.html">All research lines →</a>
+</nav>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+<footer class="pe-footer" aria-label="Site footer">
+  <svg class="wave-top" viewbox="0 0 1440 90" preserveaspectratio="none" aria-hidden="true">
+    <path d="M0 52 C 180 20, 360 20, 540 44 S 900 80, 1080 56 S 1320 18, 1440 34 L1440 90 L0 90 Z" fill="#c9d6e3"></path>
+    <path d="M0 64 C 200 38, 400 40, 600 58 S 960 88, 1160 66 S 1360 40, 1440 50 L1440 90 L0 90 Z" fill="#9fb5cb"></path>
+    <path d="M0 76 C 220 58, 440 58, 660 72 S 1020 94, 1220 78 S 1380 62, 1440 66 L1440 90 L0 90 Z" fill="#275882"></path>
+  </svg>
+  <div class="inner">
+    <div>
+      <a href="https://international.uni-pannon.hu/" rel="noopener"><img class="f-logo" src="../assets/logo/pe-logo-horizontal-white.svg" alt="University of Pannonia"></a>
+      <p class="f-name">Human- and Society-Centered AI Research Network</p>
+      <p>University of Pannonia<br>10 Egyetem Street, H-8200 Veszprém, Hungary</p>
+      <p>Coordinator: János Abonyi<br><a class="js-mail" href="#" data-u="rotker" data-d="uh.nonnap-inu.tcer">Email the coordinator</a></p>
+    </div>
+    <div>
+      <h3>Research</h3>
+      <ul>
+        <li><a href="../research/index.html">Research lines</a></li>
+        <li><a href="../approach.html">Approach</a></li>
+        <li><a href="../planned-studies.html">Planned studies</a></li>
+        <li><a href="../doctoral.html">Doctoral research</a></li>
+        <li><a href="../publications.html">Publications</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Network</h3>
+      <ul>
+        <li><a href="../people.html">Members</a></li>
+        <li><a href="../news/index.html">News</a></li>
+        <li><a href="../events.html">Events</a></li>
+        <li><a href="../activities.html">Activities</a></li>
+        <li><a href="../about.html">About</a></li>
+      </ul>
+    </div>
+    <div>
+      <h3>Get involved</h3>
+      <ul>
+        <li><a href="../join.html">Join the network</a></li>
+        <li><a href="../contact.html">Contact</a></li>
+        <li><a href="https://international.uni-pannon.hu/" rel="noopener">University of Pannonia</a></li>
+        <li><a href="https://github.com/HumanSocietyAI/humansocietyai.github.io" rel="noopener">Source on GitHub</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="f-bottom">
+    <span>© 2026 University of Pannonia. All rights reserved.</span>
+    <span>The name, crest and logo of the University of Pannonia are protected elements of its visual identity.</span>
+  </div>
+</footer>
+<script src="../assets/js/site.js" defer=""></script>
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/humansocietyai\.uni-pannon\.hu");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+      window.quartoDecorateExternalLinks = function (root) {
+     var links = (root || window.document).querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+          if (!link.classList.contains('no-external-icon')) {
+          }
+        }
+      }
+      };
+      window.quartoDecorateExternalLinks(window.document);
+    // Esc closes the popup (WCAG 1.4.13) and focus leaving both trigger and
+    // popup closes it (WCAG 2.4.11); tippy handles neither for interactive popups.
+    const hideOnEscAndFocusOut = {
+      name: 'hideOnEscAndFocusOut',
+      defaultValue: true,
+      fn(instance) {
+        const dismiss = () => {
+          // A show scheduled by the trigger delay would otherwise reopen it
+          instance.clearDelayTimeouts();
+          instance.hide();
+        };
+        const onKeyDown = (event) => {
+          if (event.key !== 'Escape') {
+            return;
+          }
+          // Keep Esc from also reaching page handlers (e.g. reveal.js overview),
+          // except an open reveal.js slide menu, which Esc should close too.
+          // The menu handles keys only when its keyboard option is on.
+          const menuHandlesEsc = window.Reveal?.getPlugin?.('menu')?.isOpen() &&
+            window.Reveal.getConfig().menu?.keyboard !== false;
+          if (!menuHandlesEsc) {
+            event.stopPropagation();
+          }
+          if (instance.popper.contains(window.document.activeElement)) {
+            // Disabled while refocusing so the focus trigger does not reopen it
+            instance.disable();
+            instance.reference.focus();
+            instance.enable();
+          }
+          dismiss();
+        };
+        const onFocusOut = (event) => {
+          const target = event.relatedTarget;
+          if (target && !instance.reference.contains(target) &&
+              !instance.popper.contains(target)) {
+            dismiss();
+          }
+        };
+        // On the trigger too: a click trigger (code-annotations: select) has no
+        // blur handling. Attached for the instance's lifetime so leaving the
+        // trigger also cancels a show still pending on the trigger delay.
+        instance.reference.addEventListener('focusout', onFocusOut);
+        return {
+          onShow() {
+            window.document.addEventListener('keydown', onKeyDown, true);
+            instance.popper.addEventListener('focusout', onFocusOut);
+          },
+          onHide() {
+            window.document.removeEventListener('keydown', onKeyDown, true);
+            instance.popper.removeEventListener('focusout', onFocusOut);
+          },
+          onDestroy() {
+            instance.reference.removeEventListener('focusout', onFocusOut);
+          },
+        };
+      },
+    };
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+        plugins: [hideOnEscAndFocusOut],
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          // Each band is positioned against its own containing block, which is
+          // not the offsetParent of the lines, so place it from client rects.
+          const placeBand = (band, firstEl, lastEl, codeBlock) => {
+            const container = band.offsetParent;
+            if (container === null) {
+              return;
+            }
+            const containerRect = container.getBoundingClientRect();
+            // Reveal.js scales slides with a transform, so convert client
+            // pixels back to the CSS pixels of the container.
+            const scale = containerRect.height / container.offsetHeight || 1;
+            const firstRect = firstEl.getBoundingClientRect();
+            const lastRect = lastEl.getBoundingClientRect();
+            const top = (firstRect.top - containerRect.top) / scale - container.clientTop + container.scrollTop;
+            const height = (lastRect.bottom - firstRect.top) / scale;
+            band.style.top = top - 2 + "px";
+            band.style.height = height + 4 + "px";
+            if (codeBlock) {
+              // Without the copy button wrapper, the containing block is wider
+              // than the code block, so span the code block explicitly.
+              const blockRect = codeBlock.getBoundingClientRect();
+              band.style.left = (blockRect.left - containerRect.left) / scale - container.clientLeft + container.scrollLeft + "px";
+              band.style.width = blockRect.width / scale + "px";
+            }
+          };
+          if (lineIds.length > 0) {
+            const el = window.document.getElementById(lineIds[0]);
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const parent = el.parentElement.parentElement;
+            // cook up a div (if necessary) and position it
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            placeBand(div, el, lastEl, parent.closest("div.sourceCode") || parent);
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            placeBand(gutterDiv, el, lastEl);
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+  <script type="application/javascript">
+  window.quartoScrollableRegionsLabels = {"code":"Scrollable code","output":"Scrollable output"};
+  </script>
+</div> <!-- /content -->
+
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

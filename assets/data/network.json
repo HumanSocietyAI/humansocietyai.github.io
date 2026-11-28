@@ -1,0 +1,811 @@
+{
+ "nodes": [
+  {
+   "id": "L:minds",
+   "type": "line",
+   "label": "Minds & Relationships",
+   "num": 1,
+   "url": "/research/minds-relationships.html"
+  },
+  {
+   "id": "L:organizations",
+   "type": "line",
+   "label": "Organizations & Knowledge",
+   "num": 2,
+   "url": "/research/organizations-knowledge.html"
+  },
+  {
+   "id": "L:society",
+   "type": "line",
+   "label": "Society & Policy",
+   "num": 3,
+   "url": "/research/society-policy.html"
+  },
+  {
+   "id": "L:governance",
+   "type": "line",
+   "label": "Risk & Governance",
+   "num": 4,
+   "url": "/research/risk-governance.html"
+  },
+  {
+   "id": "L:trustworthy",
+   "type": "line",
+   "label": "Trustworthy AI",
+   "num": 5,
+   "url": "/research/trustworthy-ai.html"
+  },
+  {
+   "id": "L:industry",
+   "type": "line",
+   "label": "Human-Centered Industry",
+   "num": 6,
+   "url": "/research/human-centered-industry.html"
+  },
+  {
+   "id": "L:education",
+   "type": "line",
+   "label": "Learning & Education",
+   "num": 7,
+   "url": "/research/learning-education.html"
+  },
+  {
+   "id": "L:university",
+   "type": "line",
+   "label": "AI-Supported University",
+   "num": 8,
+   "url": "/research/ai-supported-university.html"
+  },
+  {
+   "id": "L:enterprises",
+   "type": "line",
+   "label": "Enterprises & SMEs",
+   "num": 9,
+   "url": "/research/enterprises-smes.html"
+  },
+  {
+   "id": "janos-abonyi",
+   "type": "member",
+   "label": "János Abonyi",
+   "group": "Engineering",
+   "position": "Professor"
+  },
+  {
+   "id": "ferenc-andras",
+   "type": "member",
+   "label": "Ferenc András",
+   "group": "Humanities",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "beata-bajzek",
+   "type": "member",
+   "label": "Beáta Bajzek",
+   "group": "Business & Economics",
+   "position": "Associate Professor, Head of Department"
+  },
+  {
+   "id": "eva-bodnar",
+   "type": "member",
+   "label": "Éva Bodnár",
+   "group": "Humanities",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "gabor-bohar",
+   "type": "member",
+   "label": "Gábor Bohár",
+   "group": "Information Technology",
+   "position": "Departmental Engineer"
+  },
+  {
+   "id": "nikolett-bosnyak-simon",
+   "type": "member",
+   "label": "Nikolett Bosnyák-Simon",
+   "group": "Business & Economics",
+   "position": "Assistant Professor"
+  },
+  {
+   "id": "laszlo-bantay",
+   "type": "member",
+   "label": "László Bántay",
+   "group": "Engineering",
+   "position": "Junior Research Fellow"
+  },
+  {
+   "id": "aniko-csepregi",
+   "type": "member",
+   "label": "Anikó Csepregi",
+   "group": "Business & Economics",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "timea-czvetko",
+   "type": "member",
+   "label": "Tímea Czvetkó",
+   "group": "Engineering",
+   "position": "Junior Research Fellow"
+  },
+  {
+   "id": "laszlo-czuni",
+   "type": "member",
+   "label": "László Czúni",
+   "group": "Information Technology",
+   "position": "Associate Professor, Vice-Dean"
+  },
+  {
+   "id": "tibor-dulai",
+   "type": "member",
+   "label": "Tibor Dulai",
+   "group": "Information Technology",
+   "position": "Assistant Professor"
+  },
+  {
+   "id": "zoltan-andras-daniel",
+   "type": "member",
+   "label": "Zoltán András Dániel",
+   "group": "Business & Economics",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "gyorgy-dosa",
+   "type": "member",
+   "label": "György Dósa",
+   "group": "Information Technology",
+   "position": "Professor"
+  },
+  {
+   "id": "helga-feher",
+   "type": "member",
+   "label": "Helga Fehér",
+   "group": "Business & Economics",
+   "position": "Associate Professor, Head of Department, Vice-Dean for Academic Affairs"
+  },
+  {
+   "id": "marton-frits",
+   "type": "member",
+   "label": "Márton Frits",
+   "group": "Information Technology",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "laszlo-gadar",
+   "type": "member",
+   "label": "László Gadár",
+   "group": "University-level unit",
+   "position": "Researcher"
+  },
+  {
+   "id": "tibor-guzsvinecz",
+   "type": "member",
+   "label": "Tibor Guzsvinecz",
+   "group": "Information Technology",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "csaba-hegedus",
+   "type": "member",
+   "label": "Csaba Hegedűs",
+   "group": "Business & Economics",
+   "position": "Associate Professor, Head of Department"
+  },
+  {
+   "id": "nora-hegedusne-baranyai",
+   "type": "member",
+   "label": "Nóra Hegedűsné Baranyai",
+   "group": "Nagykanizsa Centre",
+   "position": "Associate Professor, Research Group Leader"
+  },
+  {
+   "id": "maria-kisgyorgy-pal",
+   "type": "member",
+   "label": "Mária Kisgyörgy-Pál",
+   "group": "Business & Economics",
+   "position": "Assistant Professor"
+  },
+  {
+   "id": "zsolt-tibor-kosztyan",
+   "type": "member",
+   "label": "Zsolt Tibor Kosztyán",
+   "group": "Business & Economics",
+   "position": "Professor, Head of Department"
+  },
+  {
+   "id": "mark-kovacs",
+   "type": "member",
+   "label": "Márk Kovács",
+   "group": "Humanities",
+   "position": "Master Lecturer"
+  },
+  {
+   "id": "dorottya-edina-kozma",
+   "type": "member",
+   "label": "Dorottya Edina Kozma",
+   "group": "Business & Economics",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "alex-kummer",
+   "type": "member",
+   "label": "Alex Kummer",
+   "group": "Engineering",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "edit-kovari",
+   "type": "member",
+   "label": "Edit Kővári",
+   "group": "Business & Economics",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "andrea-matlari",
+   "type": "member",
+   "label": "Andrea Matlári",
+   "group": "Humanities",
+   "position": "Master Lecturer"
+  },
+  {
+   "id": "nora-obermayer",
+   "type": "member",
+   "label": "Nóra Obermayer",
+   "group": "Business & Economics",
+   "position": "Professor, Head of Department"
+  },
+  {
+   "id": "janos-olle",
+   "type": "member",
+   "label": "János Ollé",
+   "group": "Humanities",
+   "position": "Senior Research Fellow"
+  },
+  {
+   "id": "tamas-ruppert",
+   "type": "member",
+   "label": "Tamás Ruppert",
+   "group": "Engineering",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "judit-gabriella-sass",
+   "type": "member",
+   "label": "Judit Gabriella Sass",
+   "group": "Humanities",
+   "position": "Associate Professor, Head of Institute"
+  },
+  {
+   "id": "viktor-sebestyen",
+   "type": "member",
+   "label": "Viktor Sebestyén",
+   "group": "Engineering",
+   "position": "Senior Research Fellow"
+  },
+  {
+   "id": "cecilia-sik-lanyi",
+   "type": "member",
+   "label": "Cecília Sik-Lányi",
+   "group": "Information Technology",
+   "position": "Professor"
+  },
+  {
+   "id": "zoltan-sule",
+   "type": "member",
+   "label": "Zoltán Süle",
+   "group": "Information Technology",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "julia-tobak",
+   "type": "member",
+   "label": "Júlia Tobak",
+   "group": "Business & Economics",
+   "position": "Research Fellow"
+  },
+  {
+   "id": "can-togay",
+   "type": "member",
+   "label": "Can Togay",
+   "group": "External",
+   "position": "Researcher, film director and visual artist"
+  },
+  {
+   "id": "vera-varga",
+   "type": "member",
+   "label": "Vera Varga",
+   "group": "Humanities",
+   "position": "Assistant Professor"
+  },
+  {
+   "id": "agnes-vathy-fogarassy",
+   "type": "member",
+   "label": "Ágnes Vathy-Fogarassy",
+   "group": "Information Technology",
+   "position": "Associate Professor, Head of Department"
+  },
+  {
+   "id": "agnes-werner-stark",
+   "type": "member",
+   "label": "Ágnes Werner-Stark",
+   "group": "Information Technology",
+   "position": "Associate Professor"
+  },
+  {
+   "id": "henrik-zsiboracs",
+   "type": "member",
+   "label": "Henrik Zsiborács",
+   "group": "Nagykanizsa Centre",
+   "position": "Senior Research Fellow"
+  },
+  {
+   "id": "andras-eles",
+   "type": "member",
+   "label": "András Éles",
+   "group": "Information Technology",
+   "position": "Assistant Professor"
+  },
+  {
+   "id": "oliver-osz",
+   "type": "member",
+   "label": "Olivér Ősz",
+   "group": "Information Technology",
+   "position": "Assistant Professor"
+  }
+ ],
+ "links": [
+  {
+   "source": "janos-abonyi",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:minds",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:organizations",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:society",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:governance",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:education",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:university",
+   "main": false
+  },
+  {
+   "source": "janos-abonyi",
+   "target": "L:enterprises",
+   "main": false
+  },
+  {
+   "source": "ferenc-andras",
+   "target": "L:society",
+   "main": true
+  },
+  {
+   "source": "ferenc-andras",
+   "target": "L:minds",
+   "main": false
+  },
+  {
+   "source": "ferenc-andras",
+   "target": "L:governance",
+   "main": false
+  },
+  {
+   "source": "beata-bajzek",
+   "target": "L:society",
+   "main": true
+  },
+  {
+   "source": "beata-bajzek",
+   "target": "L:enterprises",
+   "main": false
+  },
+  {
+   "source": "eva-bodnar",
+   "target": "L:organizations",
+   "main": true
+  },
+  {
+   "source": "eva-bodnar",
+   "target": "L:minds",
+   "main": false
+  },
+  {
+   "source": "eva-bodnar",
+   "target": "L:education",
+   "main": false
+  },
+  {
+   "source": "gabor-bohar",
+   "target": "L:industry",
+   "main": true
+  },
+  {
+   "source": "gabor-bohar",
+   "target": "L:trustworthy",
+   "main": false
+  },
+  {
+   "source": "nikolett-bosnyak-simon",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "laszlo-bantay",
+   "target": "L:industry",
+   "main": true
+  },
+  {
+   "source": "laszlo-bantay",
+   "target": "L:trustworthy",
+   "main": false
+  },
+  {
+   "source": "aniko-csepregi",
+   "target": "L:organizations",
+   "main": true
+  },
+  {
+   "source": "aniko-csepregi",
+   "target": "L:governance",
+   "main": false
+  },
+  {
+   "source": "timea-czvetko",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "timea-czvetko",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "laszlo-czuni",
+   "target": "L:industry",
+   "main": true
+  },
+  {
+   "source": "laszlo-czuni",
+   "target": "L:trustworthy",
+   "main": false
+  },
+  {
+   "source": "tibor-dulai",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "tibor-dulai",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "zoltan-andras-daniel",
+   "target": "L:minds",
+   "main": true
+  },
+  {
+   "source": "zoltan-andras-daniel",
+   "target": "L:enterprises",
+   "main": false
+  },
+  {
+   "source": "gyorgy-dosa",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "gyorgy-dosa",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "helga-feher",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "helga-feher",
+   "target": "L:governance",
+   "main": false
+  },
+  {
+   "source": "marton-frits",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "marton-frits",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "laszlo-gadar",
+   "target": "L:university",
+   "main": true
+  },
+  {
+   "source": "laszlo-gadar",
+   "target": "L:organizations",
+   "main": false
+  },
+  {
+   "source": "laszlo-gadar",
+   "target": "L:trustworthy",
+   "main": false
+  },
+  {
+   "source": "tibor-guzsvinecz",
+   "target": "L:minds",
+   "main": true
+  },
+  {
+   "source": "tibor-guzsvinecz",
+   "target": "L:education",
+   "main": false
+  },
+  {
+   "source": "tibor-guzsvinecz",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "csaba-hegedus",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "csaba-hegedus",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "nora-hegedusne-baranyai",
+   "target": "L:society",
+   "main": true
+  },
+  {
+   "source": "nora-hegedusne-baranyai",
+   "target": "L:enterprises",
+   "main": false
+  },
+  {
+   "source": "maria-kisgyorgy-pal",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "zsolt-tibor-kosztyan",
+   "target": "L:university",
+   "main": true
+  },
+  {
+   "source": "zsolt-tibor-kosztyan",
+   "target": "L:organizations",
+   "main": false
+  },
+  {
+   "source": "zsolt-tibor-kosztyan",
+   "target": "L:society",
+   "main": false
+  },
+  {
+   "source": "mark-kovacs",
+   "target": "L:education",
+   "main": true
+  },
+  {
+   "source": "dorottya-edina-kozma",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "dorottya-edina-kozma",
+   "target": "L:governance",
+   "main": false
+  },
+  {
+   "source": "alex-kummer",
+   "target": "L:industry",
+   "main": true
+  },
+  {
+   "source": "alex-kummer",
+   "target": "L:trustworthy",
+   "main": false
+  },
+  {
+   "source": "alex-kummer",
+   "target": "L:governance",
+   "main": false
+  },
+  {
+   "source": "edit-kovari",
+   "target": "L:organizations",
+   "main": true
+  },
+  {
+   "source": "edit-kovari",
+   "target": "L:minds",
+   "main": false
+  },
+  {
+   "source": "andrea-matlari",
+   "target": "L:education",
+   "main": true
+  },
+  {
+   "source": "nora-obermayer",
+   "target": "L:organizations",
+   "main": true
+  },
+  {
+   "source": "nora-obermayer",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "nora-obermayer",
+   "target": "L:enterprises",
+   "main": false
+  },
+  {
+   "source": "janos-olle",
+   "target": "L:education",
+   "main": true
+  },
+  {
+   "source": "janos-olle",
+   "target": "L:university",
+   "main": false
+  },
+  {
+   "source": "tamas-ruppert",
+   "target": "L:industry",
+   "main": true
+  },
+  {
+   "source": "tamas-ruppert",
+   "target": "L:organizations",
+   "main": false
+  },
+  {
+   "source": "judit-gabriella-sass",
+   "target": "L:minds",
+   "main": true
+  },
+  {
+   "source": "judit-gabriella-sass",
+   "target": "L:organizations",
+   "main": false
+  },
+  {
+   "source": "viktor-sebestyen",
+   "target": "L:society",
+   "main": true
+  },
+  {
+   "source": "cecilia-sik-lanyi",
+   "target": "L:minds",
+   "main": true
+  },
+  {
+   "source": "cecilia-sik-lanyi",
+   "target": "L:education",
+   "main": false
+  },
+  {
+   "source": "cecilia-sik-lanyi",
+   "target": "L:society",
+   "main": false
+  },
+  {
+   "source": "zoltan-sule",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "zoltan-sule",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "julia-tobak",
+   "target": "L:enterprises",
+   "main": true
+  },
+  {
+   "source": "can-togay",
+   "target": "L:minds",
+   "main": true
+  },
+  {
+   "source": "can-togay",
+   "target": "L:society",
+   "main": false
+  },
+  {
+   "source": "vera-varga",
+   "target": "L:minds",
+   "main": true
+  },
+  {
+   "source": "vera-varga",
+   "target": "L:education",
+   "main": false
+  },
+  {
+   "source": "vera-varga",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "agnes-vathy-fogarassy",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "agnes-vathy-fogarassy",
+   "target": "L:university",
+   "main": false
+  },
+  {
+   "source": "agnes-werner-stark",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "agnes-werner-stark",
+   "target": "L:industry",
+   "main": false
+  },
+  {
+   "source": "henrik-zsiboracs",
+   "target": "L:society",
+   "main": true
+  },
+  {
+   "source": "andras-eles",
+   "target": "L:industry",
+   "main": true
+  },
+  {
+   "source": "andras-eles",
+   "target": "L:enterprises",
+   "main": false
+  },
+  {
+   "source": "oliver-osz",
+   "target": "L:trustworthy",
+   "main": true
+  },
+  {
+   "source": "oliver-osz",
+   "target": "L:industry",
+   "main": false
+  }
+ ]
+}

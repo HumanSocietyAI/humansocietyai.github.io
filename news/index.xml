@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Human- and Society-Centered AI Research Network</title>
+<link>https://humansocietyai.uni-pannon.hu/news/</link>
+<atom:link href="https://humansocietyai.uni-pannon.hu/news/index.xml" rel="self" type="application/rss+xml"/>
+<description>A cross-faculty research network of the University of Pannonia studying how AI changes people, organizations and society – and how to design AI that works for people.</description>
+<generator>quarto-1.11.9</generator>
+<lastBuildDate>Sat, 21 Nov 2026 23:00:00 GMT</lastBuildDate>
+<item>
+  <title>Founding workshop on 11 December</title>
+  <link>https://humansocietyai.uni-pannon.hu/news/posts/2026-11-22-founding-workshop.html</link>
+  <description><![CDATA[ 
+<div class="pe-topbar" aria-label="University and quick links">
+  <div class="inner">
+    <div class="tb-left">
+      <a href="https://international.uni-pannon.hu/" rel="noopener"><span>University of Pannonia</span></a>
+    </div>
+    <div class="tb-right">
+      <a class="tb-btn tb-join" href="../../join.html">Join</a>
+      <a class="tb-btn" href="../../contact.html">Contact</a>
+      <span class="tb-search" id="tb-search" aria-label="Search"></span>
+      <a class="tb-icon" href="https://github.com/HumanSocietyAI/humansocietyai.github.io" rel="noopener" aria-label="Source on GitHub" title="Source on GitHub">
+        
+      </a>
+    </div>
+  </div>
+</div>
+<script>(function(){var h=document.getElementById("quarto-header"),t=document.querySelector(".pe-topbar");if(h&&t){h.insertBefore(t,h.firstChild);}})();</script>
+
+
+
+
+<p>The founding workshop of the Human- and Society-Centered AI Research Network will be held on <strong>Friday, 11 December 2026, from 13:00 to 14:30 CET</strong> in the <strong>Nagytanácsterem</strong> of the University of Pannonia in Veszprém, with online participation for members.</p>
+<p>The workshop opens with short lightning talks in which members introduce their research questions. It is also the occasion to agree on who will host the first joint pilots and to start coordinating doctoral topics with the doctoral schools.</p>
+<p>Members receive the online link by e-mail. Researchers interested in joining are welcome to <a href="../../contact.html">contact the coordinator</a>.</p>
+<p><a href="../../events.html">All events</a></p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Events</category>
+  <guid>https://humansocietyai.uni-pannon.hu/news/posts/2026-11-22-founding-workshop.html</guid>
+  <pubDate>Sat, 21 Nov 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://humansocietyai.uni-pannon.hu/assets/img/news-workshop.svg" medium="image" type="image/svg+xml"/>
+</item>
+<item>
+  <title>The University of Pannonia launches the Human- and Society-Centered AI Research Network</title>
+  <link>https://humansocietyai.uni-pannon.hu/news/posts/2026-11-22-network-launch.html</link>
+  <description><![CDATA[ 
+<div class="pe-topbar" aria-label="University and quick links">
+  <div class="inner">
+    <div class="tb-left">
+      <a href="https://international.uni-pannon.hu/" rel="noopener"><span>University of Pannonia</span></a>
+    </div>
+    <div class="tb-right">
+      <a class="tb-btn tb-join" href="../../join.html">Join</a>
+      <a class="tb-btn" href="../../contact.html">Contact</a>
+      <span class="tb-search" id="tb-search" aria-label="Search"></span>
+      <a class="tb-icon" href="https://github.com/HumanSocietyAI/humansocietyai.github.io" rel="noopener" aria-label="Source on GitHub" title="Source on GitHub">
+        
+      </a>
+    </div>
+  </div>
+</div>
+<script>(function(){var h=document.getElementById("quarto-header"),t=document.querySelector(".pe-topbar");if(h&&t){h.insertBefore(t,h.firstChild);}})();</script>
+
+
+
+
+<p>The University of Pannonia has launched the <strong>Human- and Society-Centered AI Research Network</strong>, the first multidisciplinary research community of the University’s Network of Research Excellence. Its 41 members come from the Faculties of Business and Economics, Engineering, Humanities and Information Technology, from the campuses in Veszprém, Zalaegerszeg and Nagykanizsa, and from outside the University.</p>
+<p>The network asks how artificial intelligence transforms people’s cognition, identity, creativity and relationships, and how it changes collaboration, decision-making and adaptability in groups, organizations and social institutions. The levels are linked by one question: when does AI become help after which people can do more on their own – and when does the performance gain remain tied to the system?</p>
+<p>Research is organized into <a href="../../research/index.html">nine connected lines</a>, from cognitive partnership and creativity, organizational change and stakeholder impact, through AI risk and governance, trustworthy and explainable AI and human-centered industry, to AI in education, the AI-supported university and the AI capability of small and medium-sized enterprises. All studies share <a href="../../approach.html">one framework</a>, so that results from different settings can be compared.</p>
+<p>The network works as an open, cross-faculty and self-organizing community. Members keep their home faculties and institutes and connect through shared questions, data and methods, joint publications and pilots. Researchers and doctoral candidates of the University and external researchers are welcome to <a href="../../join.html">join</a>.</p>
+<p>The founding workshop will take place on <a href="../../news/posts/2026-11-22-founding-workshop.html">11 December 2026</a>.</p>
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Network</category>
+  <guid>https://humansocietyai.uni-pannon.hu/news/posts/2026-11-22-network-launch.html</guid>
+  <pubDate>Sat, 21 Nov 2026 23:00:00 GMT</pubDate>
+  <media:content url="https://humansocietyai.uni-pannon.hu/assets/img/news-launch.svg" medium="image" type="image/svg+xml"/>
+</item>
+</channel>
+</rss>
