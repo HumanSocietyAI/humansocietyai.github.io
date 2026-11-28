@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "Members"
 subtitle: "Researchers from four faculties and three campuses"
 description: "Members of the Human- and Society-Centered AI Research Network, grouped by research line."
 ---

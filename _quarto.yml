@@ -58,7 +58,7 @@ website:
             href: research/enterprises-smes.qmd
       - text: "Approach"
         href: approach.qmd
-      - text: "People"
+      - text: "Members"
         href: people.qmd
       - text: "Studies"
         menu:

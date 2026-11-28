@@ -32,7 +32,7 @@
   website: https://www.abonyilab.com/
   university_url: https://mk.uni-pannon.hu/images/home/oktatok-kutatok/profiles/abonyi-janos.html
   photo: /assets/img/people/janos-abonyi.jpg
-  lines: [trustworthy, governance, society]
+  lines: [trustworthy, minds, organizations, society, governance, industry, education, university, enterprises]
   bio: "Works on explainable and verifiable machine learning, network and hypergraph science, and human-centered AI in organizational and industrial systems. Coordinates the network and links its work on persona-based impact assessment, AI risk analysis and agent-based methods."
 
 - id: ferenc-andras
@@ -312,6 +312,9 @@
   openalex: A5041628463
   website: https://guzsvinecz.com/
   university_url: https://zek.uni-pannon.hu/hu/rolunk-2/munkatarsak.html
+  # served from the member's own website at his request; replace with /assets/img/people/tibor-guzsvinecz.jpg once a local copy is added
+  photo: https://guzsvinecz.com/GT.jpg
+  photo_source: "https://guzsvinecz.com/GT.jpg"
   lines: [minds, education, industry]
   bio: "Works on virtual and augmented reality, human–computer interaction and user experience, including educational games, gamification and spatial cognition."
 
@@ -370,15 +373,16 @@
   family: Kovács
   position: Master Lecturer
   faculty: Faculty of Humanities
-  unit: Institute of Digital Methodology
+  unit: Center for Educational Methodology and Innovation
   campus: Veszprém
   email: {user: kovacs.mark, domain: htk.uni-pannon.hu}
+  orcid: 0009-0006-4559-1432
   scholar: uMGyap0AAAAJ
   university_url: https://dmi.htk.uni-pannon.hu/intezet/kollegaink
   photo: /assets/img/people/mark-kovacs.jpg
   photo_source: "https://dmi.htk.uni-pannon.hu/images/Kova%CC%81cs_Ma%CC%81rk_dmi.jpg"
   lines: [education]
-  bio: "Works on AI tools that support research and on digital education."
+  bio: "Works on AI-supported research tools and digital education, investigating the attitudes of K–12 teachers and higher education faculty toward artificial intelligence and their intention to teach AI literacy."
 
 - id: dorottya-edina-kozma
   given: Dorottya Edina
@@ -421,7 +425,7 @@
   family: Matlári
   position: Master Lecturer
   faculty: Faculty of Humanities
-  unit: Institute of Digital Methodology
+  unit: Center for Educational Methodology and Innovation
   campus: Veszprém
   email: {user: matlari.andrea, domain: htk.uni-pannon.hu}
   scholar: DFz_S4oAAAAJ
@@ -447,7 +451,7 @@
   university_url: https://www.gtk.uni-pannon.hu/hu/obermayernora/
   photo: /assets/img/people/nora-obermayer.jpg
   photo_source: "https://www.gtk.uni-pannon.hu/wp-content/uploads/2021/11/Dr.-Obermayer-Nora-e1627907686270-300x300.jpg"
-  lines: [organizations, governance, enterprises]
+  lines: [organizations, industry, enterprises]
   bio: "Works on knowledge management, organizational learning and AI adoption, including organizational silos and the competencies organizations need to govern AI."
 
 - id: janos-olle
@@ -455,7 +459,7 @@
   family: Ollé
   position: Senior Research Fellow
   faculty: Faculty of Humanities
-  unit: Institute of Digital Methodology
+  unit: Center for Educational Methodology and Innovation
   campus: Veszprém
   email: {user: olle.janos, domain: htk.uni-pannon.hu}
   orcid: 0000-0002-2479-3960
@@ -605,7 +609,7 @@
   photo: /assets/img/people/henrik-zsiboracs.jpg
   photo_source: "https://pen.uni-pannon.hu/wp-content/uploads/2026/01/DSC_9796_Zsiboracs-Henrik.png"
   lines: [society]
-  bio: "Works on energy systems and sustainability, with research on photovoltaic technologies, renewable energy integration and energy storage."
+  bio: "Researches photovoltaic technologies, renewable energy systems, energy storage and electric mobility, with a focus on energy system modelling, techno-economic analysis and the development of interactive decision-support tools."
 
 - id: aniko-csepregi
   given: Anikó

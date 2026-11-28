@@ -51,7 +51,9 @@ def load():
         bad = set(m.get("lines", [])) - line_ids
         if bad:
             sys.exit(f"{m['id']}: unknown research line(s) {bad}")
-    members.sort(key=lambda m: (m["family"].casefold(), m["given"].casefold()))
+    # the coordinator comes first everywhere (every research line, the People/Members page, the graph);
+    # everyone else in alphabetical order of family name
+    members.sort(key=lambda m: (m.get("role") != "Coordinator", m["family"].casefold(), m["given"].casefold()))
     return lines, members
 
 
@@ -150,7 +152,7 @@ def build():
     GEN.mkdir(exist_ok=True)
     DATA.mkdir(parents=True, exist_ok=True)
 
-    # People page: grouped by research line; a member appears under every line they belong to
+    # Members page (people.html): grouped by research line; a member appears under every line they belong to
     out = ['<nav class="line-index" aria-label="Jump to research line"><ul>']
     for l in lines:
         n = sum(1 for m in members if l["id"] in m["lines"])

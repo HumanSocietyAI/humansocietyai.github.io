@@ -17,7 +17,7 @@ body-classes: home
     <p class="tagline">Understanding and designing human–AI–social systems that work for people.</p>
     <div class="actions">
       <a class="btn-pe-light" href="/research/index.html">Explore the research</a>
-      <a class="btn-pe btn-ghost" href="/people.html">Meet the people</a>
+      <a class="btn-pe btn-ghost" href="/people.html">Meet the members</a>
     </div>
   </div>
   <svg class="wave" viewBox="0 0 1440 90" preserveAspectRatio="none" aria-hidden="true">

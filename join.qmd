@@ -10,7 +10,7 @@ Membership is open to researchers and doctoral candidates of the University of P
 
 ## How to join
 
-Write to the coordinator with your name and affiliation, your ORCID iD (if you have one), a few sentences on your research interest, and the research lines you would like to connect to. We will add your profile to the [People](/people.html) page and invite you to the forum and the research clinic.
+Write to the coordinator with your name and affiliation, your ORCID iD (if you have one), a few sentences on your research interest, and the research lines you would like to connect to. We will add your profile to the [Members](/people.html) page and invite you to the forum and the research clinic.
 
 ```{=html}
 <p><a class="btn-pe-red js-mail" href="#" data-u="rotker" data-d="uh.nonnap-inu.tcer">Write to the coordinator</a></p>

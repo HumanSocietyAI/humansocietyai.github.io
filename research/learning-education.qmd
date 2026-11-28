@@ -29,7 +29,7 @@ The EU AI Act classifies AI systems used for admission, for assessing learning o
 ## Foundations at the University of Pannonia
 
 ::: {.foundation}
-The Institute of Digital Methodology at the Faculty of Humanities studies AI use in higher education, prompting as a new competence and AI in course development, and in 2026 launched a free, accredited AI course for school teachers. The university’s MSc in Artificial Intelligence started in autumn 2026.
+The Center for Educational Methodology and Innovation (formerly the Institute of Digital Methodology) studies AI use in higher education, prompting as a new competence and AI in course development, and in 2026 launched a free, accredited AI course for school teachers. The university’s MSc in Artificial Intelligence started in autumn 2026.
 :::
 
 ## Testable hypotheses
